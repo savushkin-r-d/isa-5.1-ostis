@@ -1,0 +1,582 @@
+subject_domain_of_binary_logic_elements
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область двоичных логических элементов]
+	(* <- lang_ru;; *);
+	[Subject domain of binary logic elements]
+	(* <- lang_en;; *);
+	[Предметна область двійкових логічних елементів]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_binary_logic_element;
+
+-> rrel_not_maximum_studied_object_class:
+concept_AND_gate;
+concept_OR_gate;
+concept_NAND_gate;
+concept_NOR_gate;
+concept_qualified_OR_gate_greater_or_equal_to_n;
+concept_qualified_OR_gate_greater_than_n;
+concept_qualified_OR_gate_less_or_equal_to_n;
+concept_qualified_OR_gate_less_than_n;
+concept_qualified_OR_gate_equal_to_n;
+concept_qualified_OR_gate_not_equal_to_n;
+concept_NOT_gate;
+concept_basic_memory;
+concept_set_dominant_memory;
+concept_reset_dominant_memory;
+concept_pulse_duration_fixed;
+concept_pulse_duration_variable;
+concept_time_delay_on;
+concept_time_delay_off;;
+
+concept_binary_logic_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двоичный логический элемент]
+	(* <- lang_ru;; *);
+	[binary logic element]
+	(* <- lang_en;; *);
+	[двійковий логічний елемент]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/binary_logic_element_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/binary_logic_element_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/binary_logic_element_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_AND_gate;
+concept_OR_gate;
+concept_NAND_gate;
+concept_NOR_gate;
+concept_qualified_OR_gate_greater_or_equal_to_n;
+concept_qualified_OR_gate_greater_than_n;
+concept_qualified_OR_gate_less_or_equal_to_n;
+concept_qualified_OR_gate_less_than_n;
+concept_qualified_OR_gate_equal_to_n;
+concept_qualified_OR_gate_not_equal_to_n;
+concept_NOT_gate;
+concept_basic_memory;
+concept_set_dominant_memory;
+concept_reset_dominant_memory;
+concept_pulse_duration_fixed;
+concept_pulse_duration_variable;
+concept_time_delay_on;
+concept_time_delay_off;;
+
+concept_AND_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический элемент И]
+	(* <- lang_ru;; *);
+	[AND gate]
+	(* <- lang_en;; *);
+	[логічний елемент І]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/AND_gate.jpg";
+<- rrel_key_sc_element:
+	..AND_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/AND_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/AND_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/AND_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_OR_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический элемент ИЛИ]
+	(* <- lang_ru;; *);
+	[OR gate]
+	(* <- lang_en;; *);
+	[логічний елемент АБО]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/OR_gate.png";
+<- rrel_key_sc_element:
+	..OR_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/OR_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/OR_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/OR_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_NAND_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический элемент И-НЕ]
+	(* <- lang_ru;; *);
+	[NAND gate]
+	(* <- lang_en;; *);
+	[логічний елемент I-НЕ]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/NAND_gate.png";
+<- rrel_key_sc_element:
+	..NAND_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/NAND_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/NAND_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/NAND_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_NOR_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический элемент ИЛИ-НЕ]
+	(* <- lang_ru;; *);
+	[NOR gate]
+	(* <- lang_en;; *);
+	[логічний елемент IЛI-НЕ]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/NOR_gate.png";
+<- rrel_key_sc_element:
+	..NOR_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/NOR_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/NOR_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/NOR_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_greater_or_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, больше или равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, greater or equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, більше або дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_greater_or_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_greater_or_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_greater_than_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, больше "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, greater than "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, більше "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_greater_than_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_greater_than_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_less_or_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, меньше или равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, less or equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, менше або дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_less_or_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_less_or_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_less_than_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, меньше "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, less than "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, менше "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_less_than_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_less_than_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_not_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический элемент ИЛИ, не равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, not equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний елемент АБО, не дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_not_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_not_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_NOT_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический элемент НЕ]
+	(* <- lang_ru;; *);
+	[NOT gate]
+	(* <- lang_en;; *);
+	[логічний елемент НЕ]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/NOT_gate.jpg";
+<- rrel_key_sc_element:
+	..NOT_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/NOT_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/NOT_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/NOT_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_basic_memory
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[базовая память]
+	(* <- lang_ru;; *);
+	[basic memory]
+	(* <- lang_en;; *);
+	[базова пам'ять]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/basic_memory.jpg";
+<- rrel_key_sc_element:
+	..basic_memory_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/basic_memory_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/basic_memory_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/basic_memory_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_set_dominant_memory
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[устанивливаемая доминирующая память]
+	(* <- lang_ru;; *);
+	[set dominant memory]
+	(* <- lang_en;; *);
+	[устанівліваемая домінуюча пам'ять]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/set_dominant_memory.jpg";
+<- rrel_key_sc_element:
+	..set_dominant_memory_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/set_dominant_memory_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/set_dominant_memory_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/set_dominant_memory_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_reset_dominant_memory
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сбрасываемая доминирующая память]
+	(* <- lang_ru;; *);
+	[reset dominant memory]
+	(* <- lang_en;; *);
+	[переустанівліваемая домінуюча пам'ять]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/reset_dominant_memory.jpg";
+<- rrel_key_sc_element:
+	..reset_dominant_memory_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/reset_dominant_memory_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/reset_dominant_memory_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/reset_dominant_memory_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_pulse_duration_fixed
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[длительность импульса, фиксированная]
+	(* <- lang_ru;; *);
+	[pulse duration, fixed]
+	(* <- lang_en;; *);
+	[тривалість імпульсу, фіксована]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/pulse_duration_fixed.jpg";
+<- rrel_key_sc_element:
+	..pulse_duration_fixed_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/pulse_duration_fixed_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/pulse_duration_fixed_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/pulse_duration_fixed_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_pulse_duration_variable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[длительность импульса, переменная]
+	(* <- lang_ru;; *);
+	[pulse duration, variable]
+	(* <- lang_en;; *);
+	[тривалість імпульсу, змінна]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/pulse_duration_variable.jpg";
+<- rrel_key_sc_element:
+	..pulse_duration_variable_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/pulse_duration_variable_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/pulse_duration_variable_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/pulse_duration_variable_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_time_delay_on
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система задержки по времени, вкл.]
+	(* <- lang_ru;; *);
+	[time dealy, on]
+	(* <- lang_en;; *);
+	[система затримки за часом, вкл.]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/time_delay_on.jpg";
+<- rrel_key_sc_element:
+	..time_delay_on_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/time_delay_on_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/time_delay_on_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/time_delay_on_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_time_delay_off
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система задержки по времени, выкл.]
+	(* <- lang_ru;; *);
+	[time dealy, off]
+	(* <- lang_en;; *);
+	[система затримки за часом, викл.]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/time_delay_off.jpg";
+<- rrel_key_sc_element:
+	..time_delay_off_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/time_delay_off_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/time_delay_off_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/time_delay_off_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;

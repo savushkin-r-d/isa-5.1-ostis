@@ -1,0 +1,133 @@
+subject_domain_of_instrumentations
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область инструментариев]
+	(* <- lang_ru;; *);
+	[Subject domain of instrumentation]
+	(* <- lang_en;; *);
+	[Предметна область інструментаріїв]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_instrumentation;
+
+-> rrel_not_maximum_studied_object_class:
+concept_primary_instrumentation;
+concept_secondary_instrumentation;
+concept_auxiliary_instrumentation;
+concept_accessory_instrumentation;;
+
+concept_instrumentation => nrel_subdividing:
+{
+    concept_primary_instrumentation;
+    concept_secondary_instrumentation;
+    concept_auxiliary_instrumentation;
+    concept_accessory_instrumentation
+};;
+
+concept_primary_instrumentation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [первичный прибор]
+	(* <- lang_ru;; *);
+	[primary instrumentation]
+	(* <- lang_en;; *);
+	[первинна приладобудування]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+concept_secondary_instrumentation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [вторичный прибор]
+	(* <- lang_ru;; *);
+	[secondary instrumentation]
+	(* <- lang_en;; *);
+	[вторинна приладобудування]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+concept_auxiliary_instrumentation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [вспомогательный прибор]
+	(* <- lang_ru;; *);
+	[auxiliary instrumentation]
+	(* <- lang_en;; *);
+	[допоміжна приладобудування]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+concept_accessory_instrumentation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [дополнительнй прибор]
+	(* <- lang_ru;; *);
+	[accessory instrumentation]
+	(* <- lang_en;; *);
+	[додаткова приладобудування]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
