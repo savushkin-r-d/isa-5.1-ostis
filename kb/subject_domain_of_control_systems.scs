@@ -1,0 +1,367 @@
+subject_domain_of_control_systems
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область систем управления]
+	(* <- lang_ru;; *);
+	[Subject domain of control systems]
+	(* <- lang_en;; *);
+	[Предметна область систем управління]
+	(* <- lang_uk;; *);
+
+-> rrel_not_maximum_studied_object_class:
+concept_control_system;
+
+-> rrel_not_maximum_studied_object_class:
+concept_basic_process_control_system;
+concept_auto_manual_station;
+concept_computer_control_system;
+concept_distributed_control_system;
+concept_high_level_control_system;
+concept_manual_loading_station;
+concept_final_control_element;
+concept_safety_instrumented_system;
+concept_shared_control;
+concept_control_valve;
+concept_supervisory_setpoint_control_system;
+concept_control_station;
+concept_setpoint;;
+
+concept_auto_manual_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [auto-manual station]
+    (* <- lang_en;; *);
+    [автоматическая ручная станция]
+    (* <- lang_ru;; *);
+    [авто-ручна станція]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/auto_manual_station_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/auto_manual_station_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/auto_manual_station_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_basic_process_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [basic process control system]
+    (* <- lang_en;; *);
+    [базовая система управления технологическим процессом]
+    (* <- lang_ru;; *);
+    [базова система управління технологічним процесом]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/basic_process_control_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/basic_process_control_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/basic_process_control_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_computer_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computer control system]
+    (* <- lang_en;; *);
+    [компьютерная система управления]
+    (* <- lang_ru;; *);
+    [комп’ютерна система управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/computer_control_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/computer_control_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/computer_control_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_control_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [control station]
+    (* <- lang_en;; *);
+    [станция управления]
+    (* <- lang_ru;; *);
+    [станція управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/control_station_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/control_station_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/control_station_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_control_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [control valve]
+    (* <- lang_en;; *);
+    [регулирующий клапан]
+    (* <- lang_ru;; *);
+    [регулюючий клапан]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/control_valve_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/control_valve_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/control_valve_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_distributed_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [distributed control system]
+    (* <- lang_en;; *);
+    [распределенная система управления]
+    (* <- lang_ru;; *);
+    [розподілена система управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/distributed_control_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/distributed_control_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/distributed_control_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_final_control_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [final control element]
+    (* <- lang_en;; *);
+    [конечный элемент управления]
+    (* <- lang_ru;; *);
+    [кінцевий елемент управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/final_control_element_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/final_control_element_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/final_control_element_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_high_level_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [high level control system]
+    (* <- lang_en;; *);
+    [система управления высокого уровня]
+    (* <- lang_ru;; *);
+    [система управління високого рівня]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/high_level_control_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/high_level_control_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/high_level_control_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_manual_loading_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [manual loading station]
+    (* <- lang_en;; *);
+    [станция ручной загрузки]
+    (* <- lang_ru;; *);
+    [станція ручного завантаження]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/manual_loading_station_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/manual_loading_station_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/manual_loading_station_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+=> nrel_inclusion:
+concept_control_station;;
+
+concept_safety_instrumented_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [safety instrumented system]
+    (* <- lang_en;; *);
+    [инструментальная система безопасности]
+    (* <- lang_ru;; *);
+    [iнструментальна система безпеки]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/safety_instrumented_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/safety_instrumented_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/safety_instrumented_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_shared_control
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [shared control]
+    (* <- lang_en;; *);
+    [общий контроль]
+    (* <- lang_ru;; *);
+    [спільний контроль]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/shared_control_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/shared_control_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/shared_control_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_supervisory_setpoint_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [supervisory setpoint control system]
+    (* <- lang_en;; *);
+    [система диспетчерского управления контрольными точками]
+    (* <- lang_ru;; *);
+    [система диспетчерського управління контрольними точками]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/supervisory_setpoint_control_system_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/supervisory_setpoint_control_system_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/supervisory_setpoint_control_system_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_setpoint
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [setpoint]
+    (* <- lang_en;; *);
+    [контрольная точка]
+    (* <- lang_ru;; *);
+    [контрольна точка]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/setpoint_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/setpoint_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/setpoint_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;

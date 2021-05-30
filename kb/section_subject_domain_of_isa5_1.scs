@@ -1,0 +1,115 @@
+section_subject_domain_of_isa5_1
+<- ui_start_sc_element;
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область аппаратного и программного обеспечения]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of hardware and software]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область апаратного та програмного забезпечення]
+	(* <- lang_uk;; *);
+
+<= nrel_section_decomposition: 
+{
+	section_subject_domain_of_signals
+	(* => nrel_section_base_order: section_subject_domain_of_instruments;; *);
+	section_subject_domain_of_instruments
+	(* => nrel_section_base_order: section_subject_domain_of_devices;; *);
+	section_subject_domain_of_devices
+	(* => nrel_section_base_order: section_subject_domain_of_control_systems;; *);
+	section_subject_domain_of_control_systems
+	(* => nrel_section_base_order: section_subject_domain_of_instrumentation_schematic_diagrams;; *);
+	section_subject_domain_of_instrumentation_schematic_diagrams
+};
+
+=> nrel_summary:
+	[Целью проекта является создание распределенным сообществом разработчиков полной, 
+	структурированной и объективной базы знаний по стандарту рецептурного производства 
+	ISA5.1 на основе открытой технологии OSTIS (Open Semantic Technology for Intelligent 
+	Systems). Этот стандарт устанавливает единообразные средства изображения и идентификации 
+	инструментов или устройств и их присущие функции, а также функции прикладного программного 
+	обеспечения, используемые для проведения измерительных операций, мониторинга и контроля, 
+	представляя систему обозначений, которая включает идентификацию схем и графических 
+	обозначений.]
+	(* <- lang_ru;; *);
+	[The aim of the project is to create a complete, structured and objective knowledge base 
+	for the ISA5.1 batch manufacturing standard by the distributed community of developers, 
+	based on the OSTIS technology (Open Semantic Technology for Intelligent Systems). This 
+	standard establishes uniform means of depicting identification or devices and their 
+	inherent functions, as well as the functions of application software used for measuring 
+	operations, monitoring and control, providing a notation system that includes 
+	identification and graphic designations.]
+	(* <- lang_en;; *);
+	[Метою проекту є створення розподіленою спільнотою розробників повної, структурованої і 
+	об'єктивної бази знань за стандартом рецептурного виробництва ISA5.1 на основі відкритої 
+	технології OSTIS (Open Semantic Technology for Intelligent Systems). Цей стандарт 
+	встановлює єдині засоби зображення і ідентифікації інструментів або пристроїв і їх 
+	властиві функції, а також функції прикладного програмного забезпечення, що 
+	використовуються для проведення вимірювальних операцій, моніторингу та контролю, 
+	представляючи систему позначень, яка включає ідентифікацію схем і графічних позначень.]
+	(* <- lang_uk;; *);;
+	
+section_subject_domain_of_signals
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область сигналов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of signals]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область сигналів]
+	(* <- lang_uk;; *);;
+
+section_subject_domain_of_instruments
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область приборов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of instruments]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область приладів]
+	(* <- lang_uk;; *);;
+
+section_subject_domain_of_instrumentation_schematic_diagrams
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область принципиальных схем приборов, устройств и функций]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of instrumentation schematic diagrams]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область принципових схем приладів, пристроїв і функцій]
+	(* <- lang_uk;; *);;
+
+section_subject_domain_of_devices
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область устройств]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of devices]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область пристроїв]
+	(* <- lang_uk;; *);;
+
+section_subject_domain_of_control_systems
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область систем управления]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of control systems]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область систем управління]
+	(* <- lang_uk;; *);;
+
+	
+rrel_key_sc_element -> 
+(section_subject_domain_of_isa5_1 
+-> subject_domain_of_isa5_1);
+(section_subject_domain_of_signals 
+-> subject_domain_of_signals);
+(section_subject_domain_of_instruments 
+-> subject_domain_of_instruments);
+(section_subject_domain_of_instrumentation_schematic_diagrams 
+-> subject_domain_of_instrumentation_schematic_diagrams);
+(section_subject_domain_of_devices 
+-> subject_domain_of_devices);
+(section_subject_domain_of_control_systems
+-> subject_domain_of_control_systems);;
