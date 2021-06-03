@@ -1,0 +1,129 @@
+subject_domain_of_signals
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область сигналов]
+	(* <- lang_ru;; *);
+	[Subject domain of signals]
+	(* <- lang_en;; *);
+	[Предметна область сигналів]
+	(* <- lang_uk;; *);
+
+-> rrel_not_maximum_studied_object_class:
+concept_signal;
+	
+-> rrel_not_maximum_studied_object_class:
+concept_analog_signal;
+concept_digital_signal;
+concept_binary_signal;
+concept_discrete_signal;
+concept_undefined_signal;
+concept_pneumatic_signal;
+concept_functional_diagram_binary_signal;
+concept_functional_diagram_continuously_variable_signal;
+concept_hydraulic_signal;;
+
+concept_analog_signal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [analog signal]
+    (* <- lang_en;; *);
+    [аналоговый сигнал]
+    (* <- lang_ru;; *);
+    [аналоговий сигнал]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/analog_signal_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/analog_signal_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/analog_signal_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_binary_signal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [binary signal]
+    (* <- lang_en;; *);
+    [двоичный сигнал]
+    (* <- lang_ru;; *);
+    [двійковий сигнал]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/binary_signal_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/binary_signal_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/binary_signal_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_digital_signal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [digital signal]
+    (* <- lang_en;; *);
+    [цифровой сигнал]
+    (* <- lang_ru;; *);
+    [цифровий сигнал]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/digital_signal_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/digital_signal_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/digital_signal_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_discrete_signal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [discrete signal]
+    (* <- lang_en;; *);
+    [дискретный сигнал]
+    (* <- lang_ru;; *);
+    [дискретній сигнал]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/discrete_signal_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/discrete_signal_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/discrete_signal_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+=> nrel_inclusion:
+concept_binary_signal;;

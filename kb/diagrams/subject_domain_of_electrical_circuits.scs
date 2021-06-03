@@ -1,0 +1,1117 @@
+subject_domain_of_electrical_circuits
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область электрических схем приборов, контуров и функций прикладного программного обеспечения]
+	(* <- lang_ru;; *);
+	[Subject domain of ​​electrical circuits of instruments, loops, and application software functions]
+	(* <- lang_en;; *);
+	[Предметна область електричних схем інструментів, контурiв та функцій прикладного програмного забезпечення]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_electrical_circuit;
+
+-> rrel_not_maximum_studied_object_class:
+concept_device_wiring_point;
+concept_normally_open_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch;
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_single_pole_normally_open_toggle_switch;
+concept_single_pole_normally_closed_toggle_switch;
+concept_double_pole_normally_closed_or_normally_open_toggle_switch;
+concept_rotary_selector_switch;
+concept_pressure_switch_actuator;
+concept_differential_pressure_switch_actuator;
+concept_liquid_level_switch_actuator;
+concept_temperature_switch_actuator;
+concept_flow_switch_actuator;
+concept_foot_switch_actuator;
+concept_relay_operating_coil;
+concept_normally_open_relay_contact;
+concept_normally_closed_relay_contact;
+concept_normally_open_or_normally_closed_relay_contact;
+concept_on_time_delay;
+concept_off_time_delay;
+concept_transformer;
+concept_non_resettable_fuse;
+concept_thermal_overload;
+concept_circuit_interrupter_1_pole_manual_reset;
+concept_circuit_interrupter_3_pole_manual_reset;
+concept_circuit_breaker_1_pole_manual_reset;
+concept_circuit_breaker_3_pole_manual_reset;
+concept_bell;
+concept_horn;
+concept_buzzer;
+concept_solenoid_coil;
+concept_pilot_light;
+concept_battery;
+concept_ground;;
+
+concept_electrical_circuit
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[электрическая схема]
+	(* <- lang_ru;; *);
+	[​​electrical circuit]
+	(* <- lang_en;; *);
+	[електрична схема]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/electrical_circuit_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/electrical_circuit_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/electrical_circuit_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_device_wiring_point;
+concept_normally_open_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch;
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_single_pole_normally_open_toggle_switch;
+concept_single_pole_normally_closed_toggle_switch;
+concept_double_pole_normally_closed_or_normally_open_toggle_switch;
+concept_rotary_selector_switch;
+concept_pressure_switch_actuator;
+concept_differential_pressure_switch_actuator;
+concept_liquid_level_switch_actuator;
+concept_temperature_switch_actuator;
+concept_flow_switch_actuator;
+concept_foot_switch_actuator;
+concept_relay_operating_coil;
+concept_normally_open_relay_contact;
+concept_normally_closed_relay_contact;
+concept_normally_open_or_normally_closed_relay_contact;
+concept_on_time_delay;
+concept_off_time_delay;
+concept_transformer;
+concept_non_resettable_fuse;
+concept_thermal_overload;
+concept_circuit_interrupter_1_pole_manual_reset;
+concept_circuit_interrupter_3_pole_manual_reset;
+concept_circuit_breaker_1_pole_manual_reset;
+concept_circuit_breaker_3_pole_manual_reset;
+concept_bell;
+concept_horn;
+concept_buzzer;
+concept_solenoid_coil;
+concept_pilot_light;
+concept_battery;
+concept_ground;;
+
+concept_device_wiring_point
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[точка подключения устройства]
+	(* <- lang_ru;; *);
+	[device wiring point]
+	(* <- lang_en;; *);
+	[точка підключення пристрою]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/device_wiring_point.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/device_wiring_point_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/device_wiring_point_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/device_wiring_point_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_single_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально разомкнутый одноконтурный кнопочный выключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally open single circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально разомкнутий одноконтурний кнопочний вимикач мгновенного дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_open_single_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_closed_single_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый одноконтурный выключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally closed single circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально замкнутий одноконтурний вимикач мгновенного дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_single_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый или нормально разомкнутый двухконтурный кнопочный переключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally closed or normally open double circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально замкнутий або нормально розімкнутий двоконтурний кнопковий перемикач миттєвої дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двухпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
+	(* <- lang_ru;; *);
+	[two position toggle or rotary maintained position pushbutton switch actuator]
+	(* <- lang_en;; *);
+	[двохпозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трёхпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
+	(* <- lang_ru;; *);
+	[three position toggle or rotary maintained position pushbutton switch actuator]
+	(* <- lang_en;; *);
+	[трипозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_single_pole_normally_open_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[однополюсный нормально разомкнутый тумблер]
+	(* <- lang_ru;; *);
+	[single pole normally open toggle switch]
+	(* <- lang_en;; *);
+	[однополюсний нормально відкритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/single_pole_normally_open_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_single_pole_normally_closed_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[однополюсный нормально закрытый тумблер]
+	(* <- lang_ru;; *);
+	[single pole normally closed toggle switch]
+	(* <- lang_en;; *);
+	[однополюсний нормально закритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/single_pole_normally_closed_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_double_pole_normally_closed_or_normally_open_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двухполюсный нормально закрытый или нормально открытый переключатель]
+	(* <- lang_ru;; *);
+	[double pole normally closed or normally open toggle switch]
+	(* <- lang_en;; *);
+	[двополюсній нормально закритий або нормально відкритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/double_pole_normally_closed_or_normally_open_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_rotary_selector_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[поворотный выборный переключатель]
+	(* <- lang_ru;; *);
+	[rotary selector switch]
+	(* <- lang_en;; *);
+	[поворотний виборний перемикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/rotary_selector_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/rotary_selector_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/rotary_selector_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/rotary_selector_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_pressure_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле давления]
+	(* <- lang_ru;; *);
+	[pressure switch actuator]
+	(* <- lang_en;; *);
+	[привід реле тиску]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/pressure_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/pressure_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/pressure_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/pressure_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_differential_pressure_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле перепада давления]
+	(* <- lang_ru;; *);
+	[differential pressure switch actuator]
+	(* <- lang_en;; *);
+	[привід реле перепаду тиску]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/differential_pressure_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_liquid_level_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле уровня жидкости]
+	(* <- lang_ru;; *);
+	[liquid level switch actuator]
+	(* <- lang_en;; *);
+	[привід реле рівня рідини]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/liquid_level_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_temperature_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле температуры]
+	(* <- lang_ru;; *);
+	[temperature switch actuator]
+	(* <- lang_en;; *);
+	[привід реле температури]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/temperature_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/temperature_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/temperature_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/temperature_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_flow_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[исполнительный механизм реле потока]
+	(* <- lang_ru;; *);
+	[flow switch actuator]
+	(* <- lang_en;; *);
+	[виконавчий механізм реле потоку]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/flow_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/flow_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/flow_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/flow_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_foot_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод ножного переключателя]
+	(* <- lang_ru;; *);
+	[foot switch actuator]
+	(* <- lang_en;; *);
+	[привод нового перемикача]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/foot_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/foot_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/foot_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/foot_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_relay_operating_coil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[катушка управления реле]
+	(* <- lang_ru;; *);
+	[relay operating coil]
+	(* <- lang_en;; *);
+	[котушка управління реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/relay_operating_coil.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/relay_operating_coil_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/relay_operating_coil_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/relay_operating_coil_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально разомкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally open relay contact]
+	(* <- lang_en;; *);
+	[нормально розімкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_open_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_normally_closed_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally closed relay contact]
+	(* <- lang_en;; *);
+	[нормально замкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_or_normally_closed_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally open or normally closed relay contact]
+	(* <- lang_en;; *);
+	[нормально замкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_on_time_delay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[включатель]
+	(* <- lang_ru;; *);
+	[on time delay]
+	(* <- lang_en;; *);
+	[вмикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/on_time_delay.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/on_time_delay_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/on_time_delay_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/on_time_delay_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_off_time_delay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[выключатель]
+	(* <- lang_ru;; *);
+	[off time delay]
+	(* <- lang_en;; *);
+	[вимикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/off_time_delay.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/off_time_delay_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/off_time_delay_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/off_time_delay_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_transformer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трансформатор]
+	(* <- lang_ru;; *);
+	[transformer]
+	(* <- lang_en;; *);
+	[трансформатор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/transformer.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/transformer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/transformer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/transformer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_non_resettable_fuse
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[невосстанавливаемый предохранитель]
+	(* <- lang_ru;; *);
+	[non-resettable fuse]
+	(* <- lang_en;; *);
+	[невідновлюваний запобіжник]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/non_resettable_fuse.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/non_resettable_fuse_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/non_resettable_fuse_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/non_resettable_fuse_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_thermal_overload
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[тепловой перегрузчик]
+	(* <- lang_ru;; *);
+	[thermal overload]
+	(* <- lang_en;; *);
+	[теплової перевантажувач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/thermal_overload.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/thermal_overload_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/thermal_overload_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/thermal_overload_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_interrupter_1_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[прерыватель цепи, 1-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit interrupter, 1-pole, manual reset]
+	(* <- lang_en;; *);
+	[переривник ланцюга, 1-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_interrupter_1_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_interrupter_3_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[прерыватель цепи, 3-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit interrupter, 3-pole, manual reset]
+	(* <- lang_en;; *);
+	[переривник ланцюга, 3-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_interrupter_3_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_breaker_1_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический выключатель, 1-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit breaker, 1-pole, manual reset]
+	(* <- lang_en;; *);
+	[автоматичний вимикач, 1-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_breaker_1_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_breaker_3_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический выключатель, 3-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit breaker, 3-pole, manual reset]
+	(* <- lang_en;; *);
+	[автоматичний вимикач, 3-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_breaker_3_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_bell
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[звонок]
+	(* <- lang_ru;; *);
+	[bell]
+	(* <- lang_en;; *);
+	[дзвінок]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/bell.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/bell_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/bell_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/bell_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_horn
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[рупор]
+	(* <- lang_ru;; *);
+	[horn]
+	(* <- lang_en;; *);
+	[рупор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/horn.jpg";
+=> nrel_idtf:
+	[siren]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/horn_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/horn_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/horn_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_buzzer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[гудок]
+	(* <- lang_ru;; *);
+	[buzzer]
+	(* <- lang_en;; *);
+	[гудок]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/buzzer.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/buzzer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/buzzer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/buzzer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_solenoid_coil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[катушка соленоида]
+	(* <- lang_ru;; *);
+	[solenoid coil]
+	(* <- lang_en;; *);
+	[котушка соленоїда]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/solenoid_coil.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/solenoid_coil_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/solenoid_coil_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/solenoid_coil_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_pilot_light
+=> nrel_idtf:
+	"file://images/electric/pilot_light.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/pilot_light_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/pilot_light_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/pilot_light_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_battery
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[аккумулятор]
+	(* <- lang_ru;; *);
+	[battery]
+	(* <- lang_en;; *);
+	[акумулятор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/battery.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/battery_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/battery_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/battery_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_ground
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[заземление]
+	(* <- lang_ru;; *);
+	[ground]
+	(* <- lang_en;; *);
+	[заземлення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/ground.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/ground_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/ground_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/ground_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;

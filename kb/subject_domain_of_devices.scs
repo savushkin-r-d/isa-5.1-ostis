@@ -1,0 +1,573 @@
+subject_domain_of_devices
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область устройств]
+	(* <- lang_ru;; *);
+	[Subject domain of devices]
+	(* <- lang_en;; *);
+	[Предметна область пристроїв]
+	(* <- lang_uk;; *);
+
+-> rrel_maximum_studied_object_class:
+concept_device;
+	
+-> rrel_not_maximum_studied_object_class:
+concept_alarm;
+concept_computing_device;
+concept_computing_relay;
+concept_controller;
+concept_control_valve;
+concept_converter;
+concept_detector;
+concept_datalink;
+concept_monitor;
+concept_primary_element;
+concept_programmable_logic_controller;
+concept_relay;
+concept_scan;
+concept_sensor;
+concept_shared_display;
+concept_switch;
+concept_transducer;
+concept_transmitter;
+concept_monitor_light;
+concept_pilot_light;;
+
+concept_alarm
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [alarm]
+    (* <- lang_en;; *);
+    [сигнализатор]
+    (* <- lang_ru;; *);
+    [сигналізатор]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/alarm_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/alarm_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/alarm_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_computing_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computing device]
+    (* <- lang_en;; *);
+    [вычислительное устройство]
+    (* <- lang_ru;; *);
+    [обчислювальний пристрій]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/computing_device_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/computing_device_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/computing_device_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_computing_relay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computing relay]
+    (* <- lang_en;; *);
+    [вычислительное реле]
+    (* <- lang_ru;; *);
+    [обчислювальне реле]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/computing_relay_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/computing_relay_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/computing_relay_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [controller]
+    (* <- lang_en;; *);
+    [контроллер]
+    (* <- lang_ru;; *);
+    [контролер]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/controller_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/controller_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/controller_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+=> nrel_inclusion:
+concept_automatic_single_mode_controller;
+concept_automatic_two_mode_controller;
+concept_automatic_three_mode_controller;;
+
+concept_converter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [converter]
+    (* <- lang_en;; *);
+    [преобразователь]
+    (* <- lang_ru;; *);
+    [перетворювач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/converter_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/converter_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/converter_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_datalink
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [datalink]
+    (* <- lang_en;; *);
+    [канал передачи данных]
+    (* <- lang_ru;; *);
+    [канал передачі даних]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/datalink_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/datalink_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/datalink_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_detector
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [detector]
+    (* <- lang_en;; *);
+    [детектор]
+    (* <- lang_ru;; *);
+    [детектор]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/detector_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/detector_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/detector_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [device]
+    (* <- lang_en;; *);
+    [устройство]
+    (* <- lang_ru;; *);
+    [пристрій]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/device_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/device_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/device_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+=> nrel_inclusion:
+concept_alarm;
+concept_computing_device;
+concept_controller;
+concept_control_valve;
+concept_converter;
+concept_detector;
+concept_monitor;
+concept_programmable_logic_controller;
+concept_relay;
+concept_sensor;
+concept_shared_display;
+concept_switch;
+concept_transducer;
+concept_transmitter;;
+
+concept_monitor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [monitor]
+    (* <- lang_en;; *);
+    [монитор]
+    (* <- lang_ru;; *);
+    [монітор]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/monitor_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/monitor_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/monitor_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_primary_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [primary element]
+    (* <- lang_en;; *);
+    [первичный элемент]
+    (* <- lang_ru;; *);
+    [первинний елемент]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/primary_element_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/primary_element_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/primary_element_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_programmable_logic_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [programmable logic controller]
+    (* <- lang_en;; *);
+    [программируемый логический контроллер]
+    (* <- lang_ru;; *);
+    [програмований логічний контролер]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/programmable_logic_controller_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/programmable_logic_controller_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/programmable_logic_controller_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_relay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [relay]
+    (* <- lang_en;; *);
+    [реле]
+    (* <- lang_ru;; *);
+    [реле]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/relay_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/relay_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/relay_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_sensor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [sensor]
+    (* <- lang_en;; *);
+    [датчик]
+    (* <- lang_ru;; *);
+    [датчик]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/sensor_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/sensor_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/sensor_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_shared_display
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [shared display]
+    (* <- lang_en;; *);
+    [общий дисплей]
+    (* <- lang_ru;; *);
+    [спільний дисплей]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/shared_display_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/shared_display_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/shared_display_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [switch]
+    (* <- lang_en;; *);
+    [переключатель]
+    (* <- lang_ru;; *);
+    [перемикач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/switch_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/switch_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/switch_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_transducer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [transducer]
+    (* <- lang_en;; *);
+    [приёмник]
+    (* <- lang_ru;; *);
+    [примач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/transducer_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/transducer_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/transducer_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_transmitter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [transmitter]
+    (* <- lang_en;; *);
+    [преобразователь]
+    (* <- lang_ru;; *);
+    [передавач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/transmitter_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/transmitter_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/transmitter_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_monitor_light
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [monitor light]
+    (* <- lang_en;; *);
+    [свет монитора]
+    (* <- lang_ru;; *);
+    [монітор світла]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/monitor_light_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/monitor_light_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/monitor_light_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_pilot_light
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [pilot light]
+    (* <- lang_en;; *);
+    [контрольная лампа]
+    (* <- lang_ru;; *);
+    [контрольна лампа]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/pilot_light_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/pilot_light_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/pilot_light_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+concept_scan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [scan]
+    (* <- lang_en;; *);
+    [сканирование]
+    (* <- lang_ru;; *);
+    [сканування]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/scan_en.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/scan_ru.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/scan_uk.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;

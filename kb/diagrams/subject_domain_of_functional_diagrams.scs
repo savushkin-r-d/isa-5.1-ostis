@@ -1,0 +1,275 @@
+subject_domain_of_functional_diagrams
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область функциональных схем приборов, контуров и функций прикладного программного обеспечения]
+	(* <- lang_ru;; *);
+	[Subject domain of functional diagrams of instruments, loops, and application software functions]
+	(* <- lang_en;; *);
+	[Предметна область функціональних схем інструментів, контурiв та функцій прикладного програмного забезпечення]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_functional_diagram;
+
+-> rrel_not_maximum_studied_object_class:
+concept_measuring_input_or_readout_device;
+concept_automatic_single_mode_controller;
+concept_automatic_two_mode_controller;
+concept_automatic_three_mode_controller;
+concept_automatic_signal_processor;
+concept_manual_signal_processor;
+concept_final_control_element;
+concept_final_control_element_with_positioner;;
+
+concept_functional_diagram
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональная схема]
+	(* <- lang_ru;; *);
+	[functional diagram]
+	(* <- lang_en;; *);
+	[функціональна схема]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/functional_diagram_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/functional_diagram_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/functional_diagram_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_measuring_input_or_readout_device;
+concept_automatic_single_mode_controller;
+concept_automatic_two_mode_controller;
+concept_automatic_three_mode_controller;
+concept_automatic_signal_processor;
+concept_manual_signal_processor;
+concept_final_control_element;
+concept_final_control_element_with_positioner;;
+
+
+concept_measuring_input_or_readout_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[устройство измерения, ввода или считывания]
+	(* <- lang_ru;; *);
+	[measuring, input, or readout device]
+	(* <- lang_en;; *);
+	[пристрій вимірювання, введення або чищення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/measuring_input_or_readout_device.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_automatic_single_mode_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический одномодовый регулятор]
+	(* <- lang_ru;; *);
+	[automatic single-mode controller]
+	(* <- lang_en;; *);
+	[автоматичний одномодовий регулятор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/automatic_single_mode_controller.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_automatic_two_mode_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический двухмодовый регулятор]
+	(* <- lang_ru;; *);
+	[automatic two-mode controller]
+	(* <- lang_en;; *);
+	[автоматичний двухмодовий регулятор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/automatic_two_mode_controller.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_automatic_three_mode_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический трёхмодовый регулятор]
+	(* <- lang_ru;; *);
+	[automatic three-mode controller]
+	(* <- lang_en;; *);
+	[автоматичний трёхмодовий регулятор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/automatic_three_mode_controller.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;	
+	
+concept_automatic_signal_processor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический сигнальный процессор]
+	(* <- lang_ru;; *);
+	[automatic signal processor]
+	(* <- lang_en;; *);
+	[автоматичний процесор сигналів]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/automatic_signal_processor.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;	
+
+concept_manual_signal_processor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ручной сигнальный процессор]
+	(* <- lang_ru;; *);
+	[manual signal processor]
+	(* <- lang_en;; *);
+	[ручний сигнальний процесор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/manual_signal_processor.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/manual_signal_processor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/manual_signal_processor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/manual_signal_processor_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_final_control_element
+=> nrel_idtf:
+	"file://images/functional_diagramming/final_control_element.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/final_control_element_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/final_control_element_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/final_control_element_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_final_control_element_with_positioner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[конечный элемент управления с позиционером]
+	(* <- lang_ru;; *);
+	[final control element with positioner]
+	(* <- lang_en;; *);
+	[кінцевий елемент управління з позиционером]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/functional_diagramming/final_control_element_with_positioner.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;

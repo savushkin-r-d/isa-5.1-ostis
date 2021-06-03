@@ -1,0 +1,19 @@
+subject_domain_of_instrumentation_schematic_diagrams
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область принципиальных схем приборов, устройств и функций]
+	(* <- lang_ru;; *);
+	[Subject domain of instrumentation schematic diagrams]
+	(* <- lang_en;; *);
+	[Предметна область принципових схем приладів, пристроїв і функцій]
+	(* <- lang_uk;; *);
+	
+=> nrel_private_subject_domain:
+subject_domain_of_electrical_circuits;
+subject_domain_of_functional_diagrams;
+subject_domain_of_instrument_to_instrument_lines;
+subject_domain_of_instrument_to_process_lines;
+subject_domain_of_signal_processing_function_block_symbols;
+
+-> rrel_maximum_studied_object_class: 
+concept_diagram;;
