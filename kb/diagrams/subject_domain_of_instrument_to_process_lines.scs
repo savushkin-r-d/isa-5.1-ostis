@@ -90,11 +90,11 @@ concept_instrument_connections_to_process_and_equipment
 concept_heat_traced_impulse_or_sample_line_of_process
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[тепловая [охлаждающая] импульсная или пробная линия процесса]
+	[тепловая \[охлаждающая\] импульсная или пробная линия процесса]
 	(* <- lang_ru;; *);
-	[heat [cool] traced impulse or sample line of process]
+	[heat \[cool\] traced impulse or sample line of process]
 	(* <- lang_en;; *);
-	[теплова [холодна] імпульсна або пробна лінія процесу]
+	[теплова \[холодна\] імпульсна або пробна лінія процесу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
 	"file://images/instrument_process/heat_traced_impulse_or_sample_line_of_process.jpg";
@@ -146,11 +146,11 @@ concept_generic_instrument_connection_to_process_line
 concept_heat_traced_generic_instrument_impulse_line
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[тепловая [охлаждающая] трассируемая общая импульсная линия прибора]
+	[тепловая \[охлаждающая\] трассируемая общая импульсная линия прибора]
 	(* <- lang_ru;; *);
-	[heat [cool] traced generic instrument impulse line]
+	[heat \[cool\] traced generic instrument impulse line]
 	(* <- lang_en;; *);
-	[теплова [холодна] трасована загальна імпульсна лінія приладу]
+	[теплова \[холодна\] трасована загальна імпульсна лінія приладу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
 	"file://images/instrument_process/heat_traced_generic_instrument_impulse_line.jpg";
@@ -176,7 +176,7 @@ concept_heat_traced_instrument
 => nrel_main_idtf:
 	[тепловизионный прибор]
 	(* <- lang_ru;; *);
-	[heat [cool] traced instrument]
+	[heat \[cool\] traced instrument]
 	(* <- lang_en;; *);
 	[тепловізійний прилад]
 	(* <- lang_uk;; *);
