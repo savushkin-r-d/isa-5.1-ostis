@@ -39,11 +39,11 @@ concept_functional_diagram
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/functional_diagram_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/functional_diagram_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/functional_diagram_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);
 	
@@ -78,11 +78,11 @@ concept_measuring_input_or_readout_device
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -106,11 +106,11 @@ concept_automatic_single_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -134,11 +134,11 @@ concept_automatic_two_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -162,11 +162,11 @@ concept_automatic_three_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;	
 	
@@ -190,11 +190,11 @@ concept_automatic_signal_processor
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;	
 
@@ -218,11 +218,11 @@ concept_manual_signal_processor
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -238,11 +238,11 @@ concept_final_control_element
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/final_control_element_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -266,10 +266,10 @@ concept_final_control_element_with_positioner
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
