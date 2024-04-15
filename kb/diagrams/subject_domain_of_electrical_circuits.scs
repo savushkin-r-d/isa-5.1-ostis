@@ -67,11 +67,11 @@ concept_electrical_circuit
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/electrical_circuit_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/electrical_circuit_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/electrical_circuit_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);
 	
@@ -133,11 +133,11 @@ concept_device_wiring_point
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/device_wiring_point_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/device_wiring_point_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/device_wiring_point_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -161,11 +161,11 @@ concept_normally_open_single_circuit_momentary_pushbutton_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -189,11 +189,11 @@ concept_normally_closed_single_circuit_momentary_pushbutton_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -217,11 +217,11 @@ concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_swi
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -245,11 +245,11 @@ concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actu
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -273,11 +273,11 @@ concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_ac
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -301,11 +301,11 @@ concept_single_pole_normally_open_toggle_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -329,11 +329,11 @@ concept_single_pole_normally_closed_toggle_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -357,11 +357,11 @@ concept_double_pole_normally_closed_or_normally_open_toggle_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -385,11 +385,11 @@ concept_rotary_selector_switch
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/rotary_selector_switch_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/rotary_selector_switch_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/rotary_selector_switch_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -413,11 +413,11 @@ concept_pressure_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/pressure_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/pressure_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/pressure_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -441,11 +441,11 @@ concept_differential_pressure_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/differential_pressure_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/differential_pressure_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/differential_pressure_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -469,11 +469,11 @@ concept_liquid_level_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/liquid_level_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/liquid_level_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/liquid_level_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -497,11 +497,11 @@ concept_temperature_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/temperature_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/temperature_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/temperature_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -525,11 +525,11 @@ concept_flow_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/flow_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/flow_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/flow_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -553,11 +553,11 @@ concept_foot_switch_actuator
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/foot_switch_actuator_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/foot_switch_actuator_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/foot_switch_actuator_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -581,11 +581,11 @@ concept_relay_operating_coil
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/relay_operating_coil_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/relay_operating_coil_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/relay_operating_coil_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -609,11 +609,11 @@ concept_normally_open_relay_contact
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_open_relay_contact_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_relay_contact_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_relay_contact_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -637,11 +637,11 @@ concept_normally_closed_relay_contact
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_closed_relay_contact_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_relay_contact_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_closed_relay_contact_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -665,11 +665,11 @@ concept_normally_open_or_normally_closed_relay_contact
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -693,11 +693,11 @@ concept_on_time_delay
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/on_time_delay_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/on_time_delay_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/on_time_delay_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -721,11 +721,11 @@ concept_off_time_delay
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/off_time_delay_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/off_time_delay_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/off_time_delay_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -749,11 +749,11 @@ concept_transformer
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/transformer_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/transformer_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/transformer_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -777,11 +777,11 @@ concept_non_resettable_fuse
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/non_resettable_fuse_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/non_resettable_fuse_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/non_resettable_fuse_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -805,11 +805,11 @@ concept_thermal_overload
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/thermal_overload_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/thermal_overload_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/thermal_overload_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -833,11 +833,11 @@ concept_circuit_interrupter_1_pole_manual_reset
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -861,11 +861,11 @@ concept_circuit_interrupter_3_pole_manual_reset
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -889,11 +889,11 @@ concept_circuit_breaker_1_pole_manual_reset
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -917,11 +917,11 @@ concept_circuit_breaker_3_pole_manual_reset
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -945,11 +945,11 @@ concept_bell
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/bell_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/bell_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/bell_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -976,11 +976,11 @@ concept_horn
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/horn_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/horn_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/horn_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -1004,11 +1004,11 @@ concept_buzzer
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/buzzer_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/buzzer_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/buzzer_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -1032,11 +1032,11 @@ concept_solenoid_coil
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/solenoid_coil_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/solenoid_coil_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/solenoid_coil_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -1052,11 +1052,11 @@ concept_pilot_light
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/pilot_light_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/pilot_light_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/pilot_light_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -1080,11 +1080,11 @@ concept_battery
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/battery_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/battery_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/battery_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -1108,10 +1108,10 @@ concept_ground
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/electric/ground_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/ground_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/electric/ground_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;

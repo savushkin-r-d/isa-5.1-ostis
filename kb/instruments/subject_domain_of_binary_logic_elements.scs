@@ -49,11 +49,11 @@ concept_binary_logic_element
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/binary_logic_element_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/binary_logic_element_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/binary_logic_element_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);
 	
@@ -97,11 +97,11 @@ concept_AND_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/AND_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/AND_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/AND_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -125,11 +125,11 @@ concept_OR_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/OR_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/OR_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/OR_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -153,11 +153,11 @@ concept_NAND_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NAND_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NAND_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NAND_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -181,11 +181,11 @@ concept_NOR_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NOR_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOR_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOR_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -209,11 +209,11 @@ concept_qualified_OR_gate_greater_or_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -237,11 +237,11 @@ concept_qualified_OR_gate_greater_than_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -265,11 +265,11 @@ concept_qualified_OR_gate_less_or_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -293,11 +293,11 @@ concept_qualified_OR_gate_less_than_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -321,11 +321,11 @@ concept_qualified_OR_gate_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -349,11 +349,11 @@ concept_qualified_OR_gate_not_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -377,11 +377,11 @@ concept_NOT_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NOT_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOT_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOT_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -405,11 +405,11 @@ concept_basic_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/basic_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/basic_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/basic_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -433,11 +433,11 @@ concept_set_dominant_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/set_dominant_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/set_dominant_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/set_dominant_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -461,11 +461,11 @@ concept_reset_dominant_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/reset_dominant_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/reset_dominant_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/reset_dominant_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -489,11 +489,11 @@ concept_pulse_duration_fixed
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/pulse_duration_fixed_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_fixed_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_fixed_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -517,11 +517,11 @@ concept_pulse_duration_variable
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/pulse_duration_variable_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_variable_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_variable_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -545,11 +545,11 @@ concept_time_delay_on
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/time_delay_on_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_on_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_on_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -573,10 +573,10 @@ concept_time_delay_off
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/time_delay_off_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_off_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_off_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;

@@ -43,11 +43,11 @@ concept_primary_instrumentation
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_primary_instrumentation_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -70,11 +70,11 @@ concept_secondary_instrumentation
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_secondary_instrumentation_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -97,11 +97,11 @@ concept_auxiliary_instrumentation
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -124,10 +124,10 @@ concept_accessory_instrumentation
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;

@@ -40,11 +40,11 @@ concept_instrument_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);
 	
@@ -79,11 +79,11 @@ concept_instrument_connections_to_process_and_equipment
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -107,11 +107,11 @@ concept_heat_traced_impulse_or_sample_line_of_process
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -135,11 +135,11 @@ concept_generic_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -163,11 +163,11 @@ concept_heat_traced_generic_instrument_impulse_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -191,11 +191,11 @@ concept_heat_traced_instrument
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -219,11 +219,11 @@ concept_flanged_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -247,11 +247,11 @@ concept_threaded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -275,11 +275,11 @@ concept_socket_welded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -303,10 +303,10 @@ concept_welded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
