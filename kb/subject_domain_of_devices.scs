@@ -51,11 +51,11 @@ concept_alarm
             (*
                 -> rrel_example:
                     "file://content_html/explanations/alarm_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/alarm_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/alarm_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -77,11 +77,11 @@ concept_computing_device
             (*
                 -> rrel_example:
                     "file://content_html/explanations/computing_device_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/computing_device_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/computing_device_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -103,11 +103,11 @@ concept_computing_relay
             (*
                 -> rrel_example:
                     "file://content_html/explanations/computing_relay_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/computing_relay_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/computing_relay_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -129,11 +129,11 @@ concept_controller
             (*
                 -> rrel_example:
                     "file://content_html/explanations/controller_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/controller_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/controller_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);
 => nrel_inclusion:
@@ -159,11 +159,11 @@ concept_converter
             (*
                 -> rrel_example:
                     "file://content_html/explanations/converter_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/converter_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/converter_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -185,11 +185,11 @@ concept_datalink
             (*
                 -> rrel_example:
                     "file://content_html/explanations/datalink_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/datalink_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/datalink_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -211,11 +211,11 @@ concept_detector
             (*
                 -> rrel_example:
                     "file://content_html/explanations/detector_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/detector_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/detector_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -237,11 +237,11 @@ concept_device
             (*
                 -> rrel_example:
                     "file://content_html/explanations/device_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/device_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/device_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);
 => nrel_inclusion:
@@ -278,11 +278,11 @@ concept_monitor
             (*
                 -> rrel_example:
                     "file://content_html/explanations/monitor_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/monitor_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/monitor_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -304,11 +304,11 @@ concept_primary_element
             (*
                 -> rrel_example:
                     "file://content_html/explanations/primary_element_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/primary_element_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/primary_element_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -330,11 +330,11 @@ concept_programmable_logic_controller
             (*
                 -> rrel_example:
                     "file://content_html/explanations/programmable_logic_controller_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/programmable_logic_controller_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/programmable_logic_controller_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -356,11 +356,11 @@ concept_relay
             (*
                 -> rrel_example:
                     "file://content_html/explanations/relay_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/relay_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/relay_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -382,11 +382,11 @@ concept_sensor
             (*
                 -> rrel_example:
                     "file://content_html/explanations/sensor_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/sensor_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/sensor_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -408,11 +408,11 @@ concept_shared_display
             (*
                 -> rrel_example:
                     "file://content_html/explanations/shared_display_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/shared_display_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/shared_display_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -434,11 +434,11 @@ concept_switch
             (*
                 -> rrel_example:
                     "file://content_html/explanations/switch_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/switch_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/switch_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -460,11 +460,11 @@ concept_transducer
             (*
                 -> rrel_example:
                     "file://content_html/explanations/transducer_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/transducer_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/transducer_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -486,11 +486,11 @@ concept_transmitter
             (*
                 -> rrel_example:
                     "file://content_html/explanations/transmitter_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/transmitter_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/transmitter_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -512,11 +512,11 @@ concept_monitor_light
             (*
                 -> rrel_example:
                     "file://content_html/explanations/monitor_light_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/monitor_light_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/monitor_light_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;
 
@@ -528,7 +528,23 @@ concept_pilot_light
     [контрольная лампа]
     (* <- lang_ru;; *);
     [контрольна лампа]
-    (* <- lang_uk;; *);;
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/pilot_light_en.html"
+                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/pilot_light_ru.html"
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/pilot_light_uk.html"
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+            *);;
+    *);;
 
 concept_scan
 <- sc_node_not_relation;
@@ -548,10 +564,10 @@ concept_scan
             (*
                 -> rrel_example:
                     "file://content_html/explanations/scan_en.html"
-                    (* <- lang_en;; *);
+                    (* <- lang_en;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/scan_ru.html"
-                    (* <- lang_ru;; *);
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
                     "file://content_html/explanations/scan_uk.html"
-                    (* <- lang_uk;; *);;
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
             *);;
     *);;

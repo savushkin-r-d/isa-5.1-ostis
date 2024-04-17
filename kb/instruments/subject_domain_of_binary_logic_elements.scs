@@ -49,11 +49,11 @@ concept_binary_logic_element
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/binary_logic_element_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/binary_logic_element_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/binary_logic_element_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);
 	
@@ -87,7 +87,7 @@ concept_AND_gate
 	[логічний елемент І]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/AND_gate.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/AND_gate.jpg";
 <- rrel_key_sc_element:
 	..AND_gate_explanation
 	(*
@@ -97,11 +97,11 @@ concept_AND_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/AND_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/AND_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/AND_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -115,7 +115,7 @@ concept_OR_gate
 	[логічний елемент АБО]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/OR_gate.png" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/OR_gate.png";
 <- rrel_key_sc_element:
 	..OR_gate_explanation
 	(*
@@ -125,11 +125,11 @@ concept_OR_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/OR_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/OR_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/OR_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -143,7 +143,7 @@ concept_NAND_gate
 	[логічний елемент I-НЕ]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/NAND_gate.png" (* => nrel_format: format_png;; *);
+	"file://images/logic/NAND_gate.png";
 <- rrel_key_sc_element:
 	..NAND_gate_explanation
 	(*
@@ -153,11 +153,11 @@ concept_NAND_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NAND_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NAND_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NAND_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 
@@ -171,7 +171,7 @@ concept_NOR_gate
 	[логічний елемент IЛI-НЕ]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/NOR_gate.png" (* => nrel_format: format_png;; *);
+	"file://images/logic/NOR_gate.png";
 <- rrel_key_sc_element:
 	..NOR_gate_explanation
 	(*
@@ -181,11 +181,11 @@ concept_NOR_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NOR_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOR_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOR_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -199,7 +199,7 @@ concept_qualified_OR_gate_greater_or_equal_to_n
 	[кваліфікований логічний елемент АБО, більше або дорівнює "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_greater_or_equal_to_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_greater_or_equal_to_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_greater_or_equal_to_n_explanation
 	(*
@@ -209,11 +209,11 @@ concept_qualified_OR_gate_greater_or_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -227,7 +227,7 @@ concept_qualified_OR_gate_greater_than_n
 	[кваліфікований логічний елемент АБО, більше "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_greater_than_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_greater_than_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_greater_than_n_explanation
 	(*
@@ -237,11 +237,11 @@ concept_qualified_OR_gate_greater_than_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -255,7 +255,7 @@ concept_qualified_OR_gate_less_or_equal_to_n
 	[кваліфікований логічний елемент АБО, менше або дорівнює "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_less_or_equal_to_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_less_or_equal_to_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_less_or_equal_to_n_explanation
 	(*
@@ -265,11 +265,11 @@ concept_qualified_OR_gate_less_or_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -283,7 +283,7 @@ concept_qualified_OR_gate_less_than_n
 	[кваліфікований логічний елемент АБО, менше "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_less_than_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_less_than_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_less_than_n_explanation
 	(*
@@ -293,11 +293,11 @@ concept_qualified_OR_gate_less_than_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -311,7 +311,7 @@ concept_qualified_OR_gate_equal_to_n
 	[кваліфікований логічний елемент АБО, дорівнює "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_equal_to_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_equal_to_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_equal_to_n_explanation
 	(*
@@ -321,11 +321,11 @@ concept_qualified_OR_gate_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -339,7 +339,7 @@ concept_qualified_OR_gate_not_equal_to_n
 	[кваліфікований логічний елемент АБО, не дорівнює "n"]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/qualified_OR_gate_not_equal_to_n.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/qualified_OR_gate_not_equal_to_n.jpg";
 <- rrel_key_sc_element:
 	..qualified_OR_gate_not_equal_to_n_explanation
 	(*
@@ -349,11 +349,11 @@ concept_qualified_OR_gate_not_equal_to_n
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -367,7 +367,7 @@ concept_NOT_gate
 	[логічний елемент НЕ]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/NOT_gate.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/NOT_gate.jpg";
 <- rrel_key_sc_element:
 	..NOT_gate_explanation
 	(*
@@ -377,11 +377,11 @@ concept_NOT_gate
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/NOT_gate_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOT_gate_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/NOT_gate_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -395,7 +395,7 @@ concept_basic_memory
 	[базова пам'ять]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/basic_memory.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/basic_memory.jpg";
 <- rrel_key_sc_element:
 	..basic_memory_explanation
 	(*
@@ -405,11 +405,11 @@ concept_basic_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/basic_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/basic_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/basic_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -423,7 +423,7 @@ concept_set_dominant_memory
 	[устанівліваемая домінуюча пам'ять]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/set_dominant_memory.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/set_dominant_memory.jpg";
 <- rrel_key_sc_element:
 	..set_dominant_memory_explanation
 	(*
@@ -433,11 +433,11 @@ concept_set_dominant_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/set_dominant_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/set_dominant_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/set_dominant_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -451,7 +451,7 @@ concept_reset_dominant_memory
 	[переустанівліваемая домінуюча пам'ять]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/reset_dominant_memory.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/reset_dominant_memory.jpg";
 <- rrel_key_sc_element:
 	..reset_dominant_memory_explanation
 	(*
@@ -461,11 +461,11 @@ concept_reset_dominant_memory
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/reset_dominant_memory_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/reset_dominant_memory_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/reset_dominant_memory_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -479,7 +479,7 @@ concept_pulse_duration_fixed
 	[тривалість імпульсу, фіксована]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/pulse_duration_fixed.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/pulse_duration_fixed.jpg";
 <- rrel_key_sc_element:
 	..pulse_duration_fixed_explanation
 	(*
@@ -489,11 +489,11 @@ concept_pulse_duration_fixed
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/pulse_duration_fixed_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_fixed_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_fixed_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -507,7 +507,7 @@ concept_pulse_duration_variable
 	[тривалість імпульсу, змінна]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/pulse_duration_variable.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/pulse_duration_variable.jpg";
 <- rrel_key_sc_element:
 	..pulse_duration_variable_explanation
 	(*
@@ -517,11 +517,11 @@ concept_pulse_duration_variable
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/pulse_duration_variable_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_variable_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/pulse_duration_variable_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -535,7 +535,7 @@ concept_time_delay_on
 	[система затримки за часом, вкл.]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/time_delay_on.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/time_delay_on.jpg";
 <- rrel_key_sc_element:
 	..time_delay_on_explanation
 	(*
@@ -545,11 +545,11 @@ concept_time_delay_on
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/time_delay_on_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_on_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_on_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
 	
@@ -563,7 +563,7 @@ concept_time_delay_off
 	[система затримки за часом, викл.]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/time_delay_off.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/logic/time_delay_off.jpg";
 <- rrel_key_sc_element:
 	..time_delay_off_explanation
 	(*
@@ -573,10 +573,10 @@ concept_time_delay_off
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/logic/time_delay_off_ru.html"
-			(* <- lang_ru;; *);
+			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_off_en.html"
-			(* <- lang_en;; *);
+			(* <- lang_en;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/logic/time_delay_off_uk.html"
-			(* <- lang_uk;; *);;
+			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
