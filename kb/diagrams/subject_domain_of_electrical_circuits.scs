@@ -123,7 +123,7 @@ concept_device_wiring_point
 	[точка підключення пристрою]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/device_wiring_point.jpg";
+	"file://images/electric/device_wiring_point.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -151,7 +151,7 @@ concept_normally_open_single_circuit_momentary_pushbutton_switch
 	[нормально разомкнутий одноконтурний кнопочний вимикач мгновенного дії]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_open_single_circuit_momentary_pushbutton_switch.jpg";
+	"file://images/electric/normally_open_single_circuit_momentary_pushbutton_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -179,7 +179,7 @@ concept_normally_closed_single_circuit_momentary_pushbutton_switch
 	[нормально замкнутий одноконтурний вимикач мгновенного дії]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_closed_single_circuit_momentary_pushbutton_switch.jpg";
+	"file://images/electric/normally_closed_single_circuit_momentary_pushbutton_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -207,7 +207,7 @@ concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_swi
 	[нормально замкнутий або нормально розімкнутий двоконтурний кнопковий перемикач миттєвої дії]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch.jpg";
+	"file://images/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -235,7 +235,7 @@ concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actu
 	[двохпозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+	"file://images/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -263,7 +263,7 @@ concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_ac
 	[трипозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+	"file://images/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -291,7 +291,7 @@ concept_single_pole_normally_open_toggle_switch
 	[однополюсний нормально відкритий тумблер]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/single_pole_normally_open_toggle_switch.jpg";
+	"file://images/electric/single_pole_normally_open_toggle_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -319,7 +319,7 @@ concept_single_pole_normally_closed_toggle_switch
 	[однополюсний нормально закритий тумблер]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/single_pole_normally_closed_toggle_switch.jpg";
+	"file://images/electric/single_pole_normally_closed_toggle_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -347,7 +347,7 @@ concept_double_pole_normally_closed_or_normally_open_toggle_switch
 	[двополюсній нормально закритий або нормально відкритий тумблер]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/double_pole_normally_closed_or_normally_open_toggle_switch.jpg";
+	"file://images/electric/double_pole_normally_closed_or_normally_open_toggle_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -375,7 +375,7 @@ concept_rotary_selector_switch
 	[поворотний виборний перемикач]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/rotary_selector_switch.jpg";
+	"file://images/electric/rotary_selector_switch.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -403,7 +403,7 @@ concept_pressure_switch_actuator
 	[привід реле тиску]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/pressure_switch_actuator.jpg";
+	"file://images/electric/pressure_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -431,7 +431,7 @@ concept_differential_pressure_switch_actuator
 	[привід реле перепаду тиску]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/differential_pressure_switch_actuator.jpg";
+	"file://images/electric/differential_pressure_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -459,7 +459,7 @@ concept_liquid_level_switch_actuator
 	[привід реле рівня рідини]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/liquid_level_switch_actuator.jpg";
+	"file://images/electric/liquid_level_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -487,7 +487,7 @@ concept_temperature_switch_actuator
 	[привід реле температури]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/temperature_switch_actuator.jpg";
+	"file://images/electric/temperature_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -515,7 +515,7 @@ concept_flow_switch_actuator
 	[виконавчий механізм реле потоку]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/flow_switch_actuator.jpg";
+	"file://images/electric/flow_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -543,7 +543,7 @@ concept_foot_switch_actuator
 	[привод нового перемикача]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/foot_switch_actuator.jpg";
+	"file://images/electric/foot_switch_actuator.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -571,7 +571,7 @@ concept_relay_operating_coil
 	[котушка управління реле]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/relay_operating_coil.jpg";
+	"file://images/electric/relay_operating_coil.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -599,7 +599,7 @@ concept_normally_open_relay_contact
 	[нормально розімкнутий контакт реле]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_open_relay_contact.jpg";
+	"file://images/electric/normally_open_relay_contact.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -627,7 +627,7 @@ concept_normally_closed_relay_contact
 	[нормально замкнутий контакт реле]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_closed_relay_contact.jpg";
+	"file://images/electric/normally_closed_relay_contact.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -655,7 +655,7 @@ concept_normally_open_or_normally_closed_relay_contact
 	[нормально замкнутий контакт реле]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/normally_closed_relay_contact.jpg";
+	"file://images/electric/normally_closed_relay_contact.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -683,7 +683,7 @@ concept_on_time_delay
 	[вмикач]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/on_time_delay.jpg";
+	"file://images/electric/on_time_delay.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -711,7 +711,7 @@ concept_off_time_delay
 	[вимикач]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/off_time_delay.jpg";
+	"file://images/electric/off_time_delay.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -739,7 +739,7 @@ concept_transformer
 	[трансформатор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/transformer.jpg";
+	"file://images/electric/transformer.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -767,7 +767,7 @@ concept_non_resettable_fuse
 	[невідновлюваний запобіжник]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/non_resettable_fuse.jpg";
+	"file://images/electric/non_resettable_fuse.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -795,7 +795,7 @@ concept_thermal_overload
 	[теплової перевантажувач]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/thermal_overload.jpg";
+	"file://images/electric/thermal_overload.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -823,7 +823,7 @@ concept_circuit_interrupter_1_pole_manual_reset
 	[переривник ланцюга, 1-полюсний, ручне скидання]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/circuit_interrupter_1_pole_manual_reset.jpg";
+	"file://images/electric/circuit_interrupter_1_pole_manual_reset.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -851,7 +851,7 @@ concept_circuit_interrupter_3_pole_manual_reset
 	[переривник ланцюга, 3-полюсний, ручне скидання]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/circuit_interrupter_3_pole_manual_reset.jpg";
+	"file://images/electric/circuit_interrupter_3_pole_manual_reset.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -879,7 +879,7 @@ concept_circuit_breaker_1_pole_manual_reset
 	[автоматичний вимикач, 1-полюсний, ручне скидання]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/circuit_breaker_1_pole_manual_reset.jpg";
+	"file://images/electric/circuit_breaker_1_pole_manual_reset.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -907,7 +907,7 @@ concept_circuit_breaker_3_pole_manual_reset
 	[автоматичний вимикач, 3-полюсний, ручне скидання]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/circuit_breaker_3_pole_manual_reset.jpg";
+	"file://images/electric/circuit_breaker_3_pole_manual_reset.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -935,7 +935,7 @@ concept_bell
 	[дзвінок]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/bell.jpg";
+	"file://images/electric/bell.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -963,7 +963,7 @@ concept_horn
 	[рупор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/horn.jpg";
+	"file://images/electric/horn.jpg" (* => nrel_format: format_jpg;; *);
 => nrel_idtf:
 	[siren]
 	(* <- lang_en;; *);
@@ -994,7 +994,7 @@ concept_buzzer
 	[гудок]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/buzzer.jpg";
+	"file://images/electric/buzzer.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -1022,7 +1022,7 @@ concept_solenoid_coil
 	[котушка соленоїда]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/solenoid_coil.jpg";
+	"file://images/electric/solenoid_coil.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -1042,7 +1042,7 @@ concept_solenoid_coil
 	
 concept_pilot_light
 => nrel_idtf:
-	"file://images/electric/pilot_light.jpg";
+	"file://images/electric/pilot_light.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -1070,7 +1070,7 @@ concept_battery
 	[акумулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/battery.jpg";
+	"file://images/electric/battery.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -1098,7 +1098,7 @@ concept_ground
 	[заземлення]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/ground.jpg";
+	"file://images/electric/ground.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
