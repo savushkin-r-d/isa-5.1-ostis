@@ -111,7 +111,7 @@ concept_summation_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -142,7 +142,7 @@ concept_multiplication_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -173,7 +173,7 @@ concept_difference_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -204,7 +204,7 @@ concept_average_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -235,7 +235,7 @@ concept_exponential_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/exponential.jpg";
+	"file://images/functional/exponential.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -266,7 +266,7 @@ concept_proportion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/proportion.jpg";
+	"file://images/functional/proportion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -297,7 +297,7 @@ concept_integral_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/integral.jpg";
+	"file://images/functional/integral.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -328,7 +328,7 @@ concept_unspecified_function_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/unspecified_function.jpg";
+	"file://images/functional/unspecified_function.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -359,7 +359,7 @@ concept_conversion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/conversion.jpg";
+	"file://images/functional/conversion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -390,7 +390,7 @@ concept_middle_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/middle_signal_select.jpg";
+	"file://images/functional/middle_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -421,7 +421,7 @@ concept_high_limit_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_limit.jpg";
+	"file://images/functional/high_limit.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -452,7 +452,7 @@ concept_positive_bias_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/positive_bias.jpg";
+	"file://images/functional/positive_bias.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -483,7 +483,7 @@ concept_velocity_limiter_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/velocity_limiter.jpg";
+	"file://images/functional/velocity_limiter.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -514,7 +514,7 @@ concept_low_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_signal_monitor.jpg";
+	"file://images/functional/low_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -545,7 +545,7 @@ concept_division_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/division.jpg";
+	"file://images/functional/division.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -576,7 +576,7 @@ concept_root_extraction_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/root_extraction.jpg";
+	"file://images/functional/root_extraction.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -607,7 +607,7 @@ concept_reverse_proportion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/reverse_proportion.jpg";
+	"file://images/functional/reverse_proportion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -639,7 +639,7 @@ concept_derivative_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/derivative.jpg";
+	"file://images/functional/derivative.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -670,7 +670,7 @@ concept_time_function_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/time_function.jpg";
+	"file://images/functional/time_function.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -701,7 +701,7 @@ concept_high_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_signal_select.jpg";
+	"file://images/functional/high_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -733,7 +733,7 @@ concept_low_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_signal_select.jpg";
+	"file://images/functional/low_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -764,7 +764,7 @@ concept_low_limit_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_limit.jpg";
+	"file://images/functional/low_limit.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -795,7 +795,7 @@ concept_negative_bias_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/negative_bias.jpg";
+	"file://images/functional/negative_bias.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -826,7 +826,7 @@ concept_high_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_signal_monitor.jpg";
+	"file://images/functional/high_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -857,7 +857,7 @@ concept_high_low_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_low_signal_monitor.jpg";
+	"file://images/functional/high_low_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -888,7 +888,7 @@ concept_binary_signal_generator_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/binary_signal_generator.jpg";
+	"file://images/functional/binary_signal_generator.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -919,7 +919,7 @@ concept_signal_transfer_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/signal_transfer.jpg";
+	"file://images/functional/signal_transfer.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -950,7 +950,7 @@ concept_analog_signal_generator_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/analog_signal_generator.jpg";
+	"file://images/functional/analog_signal_generator.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 

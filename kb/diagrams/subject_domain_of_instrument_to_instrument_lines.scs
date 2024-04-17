@@ -69,7 +69,7 @@ concept_instrument_electric_power_supply
 	[джерело електроживлення приладу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/instrument_electric_power_supply.jpg";
+	"file://images/instrument_instrument/instrument_electric_power_supply.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -97,7 +97,7 @@ concept_instrument_hydraulic_power_supply
 	[гідравлічний джерело живлення приладу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/instrument_hydraulic_power_supply.jpg";
+	"file://images/instrument_instrument/instrument_hydraulic_power_supply.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -125,7 +125,7 @@ concept_undefined_signal
 	[невизначений сигнал]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/undefined_signal.jpg";
+	"file://images/instrument_instrument/undefined_signal.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -153,7 +153,7 @@ concept_pneumatic_signal
 	[пневматичний сигнал]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/pneumatic_signal.jpg";
+	"file://images/instrument_instrument/pneumatic_signal.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -181,7 +181,7 @@ concept_functional_diagram_binary_signal
 	[функціональна схема двійкового сигналу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/functional_diagram_binary_signal.jpg";
+	"file://images/instrument_instrument/functional_diagram_binary_signal.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -209,7 +209,7 @@ concept_functional_diagram_continuously_variable_signal
 	[функціональна схема безступінчатий сигнал]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/functional_diagram_continuously_variable_signal.jpg";
+	"file://images/instrument_instrument/functional_diagram_continuously_variable_signal.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -237,7 +237,7 @@ concept_hydraulic_signal
 	[гідравлічний сигнал]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/hydraulic_signal.jpg";
+	"file://images/instrument_instrument/hydraulic_signal.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -265,7 +265,7 @@ concept_filled_thermal_element_capillary_tube
 	[заповнена капілярна трубка теплового елемента]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/filled_thermal_element_capillary_tube.jpg";
+	"file://images/instrument_instrument/filled_thermal_element_capillary_tube.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -293,7 +293,7 @@ concept_fiber_optic_cable
 	[волоконно-оптичний кабель]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_instrument/fiber_optic_cable.jpg";
+	"file://images/instrument_instrument/fiber_optic_cable.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*

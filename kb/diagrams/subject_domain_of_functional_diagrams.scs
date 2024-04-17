@@ -68,7 +68,7 @@ concept_measuring_input_or_readout_device
 	[пристрій вимірювання, введення або чищення]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/measuring_input_or_readout_device.jpg";
+	"file://images/functional_diagramming/measuring_input_or_readout_device.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -96,7 +96,7 @@ concept_automatic_single_mode_controller
 	[автоматичний одномодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_single_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_single_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -124,7 +124,7 @@ concept_automatic_two_mode_controller
 	[автоматичний двухмодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_two_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_two_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -152,7 +152,7 @@ concept_automatic_three_mode_controller
 	[автоматичний трёхмодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_three_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_three_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -180,7 +180,7 @@ concept_automatic_signal_processor
 	[автоматичний процесор сигналів]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_signal_processor.jpg";
+	"file://images/functional_diagramming/automatic_signal_processor.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -208,7 +208,7 @@ concept_manual_signal_processor
 	[ручний сигнальний процесор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/manual_signal_processor.jpg";
+	"file://images/functional_diagramming/manual_signal_processor.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -228,7 +228,7 @@ concept_manual_signal_processor
 
 concept_final_control_element
 => nrel_idtf:
-	"file://images/functional_diagramming/final_control_element.jpg";
+	"file://images/functional_diagramming/final_control_element.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -256,7 +256,7 @@ concept_final_control_element_with_positioner
 	[кінцевий елемент управління з позиционером]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/final_control_element_with_positioner.jpg";
+	"file://images/functional_diagramming/final_control_element_with_positioner.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*

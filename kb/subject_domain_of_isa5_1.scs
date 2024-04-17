@@ -13,7 +13,7 @@ subject_domain_of_signals;
 subject_domain_of_instruments;
 subject_domain_of_devices;
 subject_domain_of_control_systems;
-subject_domain_of_instrumentation_diagrams;
+subject_domain_of_instrumentation_schematic_diagrams;
 
 -> rrel_not_maximum_studied_object_class:
 concept_accessible;
