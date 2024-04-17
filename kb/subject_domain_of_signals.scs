@@ -40,11 +40,11 @@ concept_analog_signal
             (*
                 -> rrel_example:
                     "file://content_html/explanations/analog_signal_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/analog_signal_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/analog_signal_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -66,11 +66,11 @@ concept_binary_signal
             (*
                 -> rrel_example:
                     "file://content_html/explanations/binary_signal_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/binary_signal_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/binary_signal_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -92,11 +92,11 @@ concept_digital_signal
             (*
                 -> rrel_example:
                     "file://content_html/explanations/digital_signal_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/digital_signal_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/digital_signal_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -118,11 +118,11 @@ concept_discrete_signal
             (*
                 -> rrel_example:
                     "file://content_html/explanations/discrete_signal_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/discrete_signal_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/discrete_signal_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);
 => nrel_inclusion:

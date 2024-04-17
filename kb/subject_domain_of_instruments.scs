@@ -45,11 +45,11 @@ concept_discrete_instrument
             (*
                 -> rrel_example:
                     "file://content_html/explanations/discrete_instrument_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/discrete_instrument_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/discrete_instrument_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -71,11 +71,11 @@ concept_behind_the_panel
             (*
                 -> rrel_example:
                     "file://content_html/explanations/behind_the_panel_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/behind_the_panel_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/behind_the_panel_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -97,11 +97,11 @@ concept_field_instrument
             (*
                 -> rrel_example:
                     "file://content_html/explanations/field_instrument_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/field_instrument_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/field_instrument_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -123,11 +123,11 @@ concept_instrument
             (*
                 -> rrel_example:
                     "file://content_html/explanations/instrument_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/instrument_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/instrument_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);
 => nrel_inclusion:
@@ -154,11 +154,11 @@ concept_instrumentation
             (*
                 -> rrel_example:
                     "file://content_html/explanations/instrumentation_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/instrumentation_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/instrumentation_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -180,11 +180,11 @@ concept_local_panel
             (*
                 -> rrel_example:
                     "file://content_html/explanations/local_panel_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/local_panel_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/local_panel_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -206,11 +206,11 @@ concept_panel
             (*
                 -> rrel_example:
                     "file://content_html/explanations/panel_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/panel_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/panel_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -232,11 +232,11 @@ concept_local_instrument
             (*
                 -> rrel_example:
                     "file://content_html/explanations/local_instrument_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/local_instrument_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/local_instrument_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -258,11 +258,11 @@ concept_panel_mounted_instrument
             (*
                 -> rrel_example:
                     "file://content_html/explanations/panel_mounted_instrument_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/panel_mounted_instrument_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/panel_mounted_instrument_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -284,11 +284,11 @@ concept_board
             (*
                 -> rrel_example:
                     "file://content_html/explanations/board_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/board_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/board_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -310,10 +310,10 @@ concept_test_point
             (*
                 -> rrel_example:
                     "file://content_html/explanations/test_point_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/test_point_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/test_point_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;

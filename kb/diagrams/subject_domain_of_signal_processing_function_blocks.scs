@@ -61,11 +61,11 @@ concept_functional_block_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/functional_block_symbol_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/functional_block_symbol_en.html"	
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/functional_block_symbol_uk.html"	
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);
 
@@ -111,7 +111,7 @@ concept_summation_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -123,11 +123,11 @@ concept_summation_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/summation_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/summation_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/summation_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -142,7 +142,7 @@ concept_multiplication_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -154,11 +154,11 @@ concept_multiplication_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/multiplication_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/multiplication_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/multiplication_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -173,7 +173,7 @@ concept_difference_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -185,11 +185,11 @@ concept_difference_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/difference_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/difference_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/difference_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -204,7 +204,7 @@ concept_average_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg";
+	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -216,11 +216,11 @@ concept_average_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/average_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/average_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/average_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -235,7 +235,7 @@ concept_exponential_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/exponential.jpg";
+	"file://images/functional/exponential.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -247,11 +247,11 @@ concept_exponential_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/exponential_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/exponential_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/exponential_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -266,7 +266,7 @@ concept_proportion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/proportion.jpg";
+	"file://images/functional/proportion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -278,11 +278,11 @@ concept_proportion_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/proportion_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/proportion_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/proportion_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -297,7 +297,7 @@ concept_integral_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/integral.jpg";
+	"file://images/functional/integral.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -309,11 +309,11 @@ concept_integral_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/integral_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/integral_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/integral_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -328,7 +328,7 @@ concept_unspecified_function_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/unspecified_function.jpg";
+	"file://images/functional/unspecified_function.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -340,11 +340,11 @@ concept_unspecified_function_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/unspecified_function_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/unspecified_function_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/unspecified_function_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -359,7 +359,7 @@ concept_conversion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/conversion.jpg";
+	"file://images/functional/conversion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -371,11 +371,11 @@ concept_conversion_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/conversion_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/conversion_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/conversion_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -390,7 +390,7 @@ concept_middle_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/middle_signal_select.jpg";
+	"file://images/functional/middle_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -402,11 +402,11 @@ concept_middle_signal_select_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/middle_signal_select_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/middle_signal_select_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/middle_signal_select_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -421,7 +421,7 @@ concept_high_limit_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_limit.jpg";
+	"file://images/functional/high_limit.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -433,11 +433,11 @@ concept_high_limit_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/middle_signal_select_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/middle_signal_select_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/middle_signal_select_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -452,7 +452,7 @@ concept_positive_bias_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/positive_bias.jpg";
+	"file://images/functional/positive_bias.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -464,11 +464,11 @@ concept_positive_bias_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/positive_bias_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/positive_bias_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/positive_bias_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -483,7 +483,7 @@ concept_velocity_limiter_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/velocity_limiter.jpg";
+	"file://images/functional/velocity_limiter.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -495,11 +495,11 @@ concept_velocity_limiter_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/velocity_limiter_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/velocity_limiter_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/velocity_limiter_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -514,7 +514,7 @@ concept_low_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_signal_monitor.jpg";
+	"file://images/functional/low_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -526,11 +526,11 @@ concept_low_signal_monitor_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/low_signal_monitor_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/low_signal_monitor_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/low_signal_monitor_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -545,7 +545,7 @@ concept_division_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/division.jpg";
+	"file://images/functional/division.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -557,11 +557,11 @@ concept_division_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/division_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/division_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/division_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -576,7 +576,7 @@ concept_root_extraction_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/root_extraction.jpg";
+	"file://images/functional/root_extraction.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -588,11 +588,11 @@ concept_root_extraction_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/root_extraction_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/root_extraction_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/root_extraction_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -607,7 +607,7 @@ concept_reverse_proportion_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/reverse_proportion.jpg";
+	"file://images/functional/reverse_proportion.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -619,11 +619,11 @@ concept_reverse_proportion_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/reverse_proportion_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/reverse_proportion_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/reverse_proportion_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -639,7 +639,7 @@ concept_derivative_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/derivative.jpg";
+	"file://images/functional/derivative.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -651,11 +651,11 @@ concept_derivative_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/derivative_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/derivative_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/derivative_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -670,7 +670,7 @@ concept_time_function_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/time_function.jpg";
+	"file://images/functional/time_function.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -682,11 +682,11 @@ concept_time_function_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/time_function_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/time_function_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/time_function_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -701,7 +701,7 @@ concept_high_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_signal_select.jpg";
+	"file://images/functional/high_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -713,11 +713,11 @@ concept_high_signal_select_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/high_signal_select_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/high_signal_select_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/high_signal_select_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -733,7 +733,7 @@ concept_low_signal_select_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_signal_select.jpg";
+	"file://images/functional/low_signal_select.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -745,11 +745,11 @@ concept_low_signal_select_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/low_signal_select_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/low_signal_select_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/low_signal_select_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -764,7 +764,7 @@ concept_low_limit_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_limit.jpg";
+	"file://images/functional/low_limit.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -776,11 +776,11 @@ concept_low_limit_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/low_limit_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/low_limit_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/low_limit_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -795,7 +795,7 @@ concept_negative_bias_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/negative_bias.jpg";
+	"file://images/functional/negative_bias.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -807,11 +807,11 @@ concept_negative_bias_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/negative_bias_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/negative_bias_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/negative_bias_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -826,7 +826,7 @@ concept_high_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_signal_monitor.jpg";
+	"file://images/functional/high_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -838,11 +838,11 @@ concept_high_signal_monitor_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/high_signal_monitor_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/high_signal_monitor_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/high_signal_monitor_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -857,7 +857,7 @@ concept_high_low_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/high_low_signal_monitor.jpg";
+	"file://images/functional/high_low_signal_monitor.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -869,11 +869,11 @@ concept_high_low_signal_monitor_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/high_low_signal_monitor_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/high_low_signal_monitor_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/high_low_signal_monitor_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -888,7 +888,7 @@ concept_binary_signal_generator_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/binary_signal_generator.jpg";
+	"file://images/functional/binary_signal_generator.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -900,11 +900,11 @@ concept_binary_signal_generator_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/binary_signal_generator_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/binary_signal_generator_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/binary_signal_generator_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -919,7 +919,7 @@ concept_signal_transfer_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/signal_transfer.jpg";
+	"file://images/functional/signal_transfer.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -931,11 +931,11 @@ concept_signal_transfer_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/signal_transfer_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/signal_transfer_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/signal_transfer_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -950,7 +950,7 @@ concept_analog_signal_generator_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/analog_signal_generator.jpg";
+	"file://images/functional/analog_signal_generator.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -962,10 +962,10 @@ concept_analog_signal_generator_symbol
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional/analog_signal_generator_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional/analog_signal_generator_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional/analog_signal_generator_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;

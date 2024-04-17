@@ -44,11 +44,11 @@ concept_auto_manual_station
             (*
                 -> rrel_example:
                     "file://content_html/explanations/auto_manual_station_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/auto_manual_station_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/auto_manual_station_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -70,11 +70,11 @@ concept_basic_process_control_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/basic_process_control_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/basic_process_control_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/basic_process_control_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -96,11 +96,11 @@ concept_computer_control_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/computer_control_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/computer_control_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/computer_control_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -122,11 +122,11 @@ concept_control_station
             (*
                 -> rrel_example:
                     "file://content_html/explanations/control_station_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/control_station_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/control_station_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -148,11 +148,11 @@ concept_control_valve
             (*
                 -> rrel_example:
                     "file://content_html/explanations/control_valve_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/control_valve_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/control_valve_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -174,11 +174,11 @@ concept_distributed_control_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/distributed_control_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/distributed_control_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/distributed_control_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -200,11 +200,11 @@ concept_final_control_element
             (*
                 -> rrel_example:
                     "file://content_html/explanations/final_control_element_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/final_control_element_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/final_control_element_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -226,11 +226,11 @@ concept_high_level_control_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/high_level_control_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/high_level_control_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/high_level_control_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -252,11 +252,11 @@ concept_manual_loading_station
             (*
                 -> rrel_example:
                     "file://content_html/explanations/manual_loading_station_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/manual_loading_station_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/manual_loading_station_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);
 => nrel_inclusion:
@@ -280,11 +280,11 @@ concept_safety_instrumented_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/safety_instrumented_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/safety_instrumented_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/safety_instrumented_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -306,11 +306,11 @@ concept_shared_control
             (*
                 -> rrel_example:
                     "file://content_html/explanations/shared_control_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/shared_control_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/shared_control_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -332,11 +332,11 @@ concept_supervisory_setpoint_control_system
             (*
                 -> rrel_example:
                     "file://content_html/explanations/supervisory_setpoint_control_system_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/supervisory_setpoint_control_system_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/supervisory_setpoint_control_system_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;
 
@@ -358,10 +358,10 @@ concept_setpoint
             (*
                 -> rrel_example:
                     "file://content_html/explanations/setpoint_en.html"
-                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    (* <- lang_en;; *);
                     "file://content_html/explanations/setpoint_ru.html"
-                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    (* <- lang_ru;; *);
                     "file://content_html/explanations/setpoint_uk.html"
-                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+                    (* <- lang_uk;; *);;
             *);;
     *);;

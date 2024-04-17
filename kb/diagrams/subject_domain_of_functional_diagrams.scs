@@ -39,11 +39,11 @@ concept_functional_diagram
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/functional_diagram_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/functional_diagram_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/functional_diagram_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);
 	
@@ -68,7 +68,7 @@ concept_measuring_input_or_readout_device
 	[пристрій вимірювання, введення або чищення]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/measuring_input_or_readout_device.jpg";
+	"file://images/functional_diagramming/measuring_input_or_readout_device.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -78,11 +78,11 @@ concept_measuring_input_or_readout_device
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/measuring_input_or_readout_device_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 	
@@ -96,7 +96,7 @@ concept_automatic_single_mode_controller
 	[автоматичний одномодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_single_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_single_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -106,11 +106,11 @@ concept_automatic_single_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_single_mode_controller_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 	
@@ -124,7 +124,7 @@ concept_automatic_two_mode_controller
 	[автоматичний двухмодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_two_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_two_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -134,11 +134,11 @@ concept_automatic_two_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_two_mode_controller_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 	
@@ -152,7 +152,7 @@ concept_automatic_three_mode_controller
 	[автоматичний трёхмодовий регулятор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_three_mode_controller.jpg";
+	"file://images/functional_diagramming/automatic_three_mode_controller.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -162,11 +162,11 @@ concept_automatic_three_mode_controller
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_three_mode_controller_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;	
 	
@@ -180,7 +180,7 @@ concept_automatic_signal_processor
 	[автоматичний процесор сигналів]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/automatic_signal_processor.jpg";
+	"file://images/functional_diagramming/automatic_signal_processor.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -190,11 +190,11 @@ concept_automatic_signal_processor
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/automatic_signal_processor_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;	
 
@@ -208,7 +208,7 @@ concept_manual_signal_processor
 	[ручний сигнальний процесор]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/manual_signal_processor.jpg";
+	"file://images/functional_diagramming/manual_signal_processor.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -218,17 +218,17 @@ concept_manual_signal_processor
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/manual_signal_processor_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
 concept_final_control_element
 => nrel_idtf:
-	"file://images/functional_diagramming/final_control_element.jpg";
+	"file://images/functional_diagramming/final_control_element.jpg" (* => nrel_format: format_jpg;; *); 
 <- rrel_key_sc_element:
 	...
 	(*
@@ -238,11 +238,11 @@ concept_final_control_element
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/final_control_element_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -256,7 +256,7 @@ concept_final_control_element_with_positioner
 	[кінцевий елемент управління з позиционером]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/functional_diagramming/final_control_element_with_positioner.jpg";
+	"file://images/functional_diagramming/final_control_element_with_positioner.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -266,10 +266,10 @@ concept_final_control_element_with_positioner
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/functional_diagramming/final_control_element_with_positioner_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;

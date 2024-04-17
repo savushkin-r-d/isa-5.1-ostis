@@ -40,11 +40,11 @@ concept_instrument_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/instrument_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);
 	
@@ -69,7 +69,7 @@ concept_instrument_connections_to_process_and_equipment
 	[підключення приладів до технологічного процесу та обладнання]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/instrument_connections_to_process_and_equipment.jpg";
+	"file://images/instrument_process/instrument_connections_to_process_and_equipment.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -79,11 +79,11 @@ concept_instrument_connections_to_process_and_equipment
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/instrument_connections_to_process_and_equipment_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -97,7 +97,7 @@ concept_heat_traced_impulse_or_sample_line_of_process
 	[теплова \[холодна\] імпульсна або пробна лінія процесу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/heat_traced_impulse_or_sample_line_of_process.jpg";
+	"file://images/instrument_process/heat_traced_impulse_or_sample_line_of_process.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -107,11 +107,11 @@ concept_heat_traced_impulse_or_sample_line_of_process
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_impulse_or_sample_line_of_process_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -125,7 +125,7 @@ concept_generic_instrument_connection_to_process_line
 	[підключення універсального приладу до технологічної лінії]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/generic_instrument_connection_to_process_line.jpg";
+	"file://images/instrument_process/generic_instrument_connection_to_process_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -135,11 +135,11 @@ concept_generic_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/generic_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -153,7 +153,7 @@ concept_heat_traced_generic_instrument_impulse_line
 	[теплова \[холодна\] трасована загальна імпульсна лінія приладу]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/heat_traced_generic_instrument_impulse_line.jpg";
+	"file://images/instrument_process/heat_traced_generic_instrument_impulse_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -163,11 +163,11 @@ concept_heat_traced_generic_instrument_impulse_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_generic_instrument_impulse_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -181,7 +181,7 @@ concept_heat_traced_instrument
 	[тепловізійний прилад]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/heat_traced_instrument.jpg";
+	"file://images/instrument_process/heat_traced_instrument.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -191,11 +191,11 @@ concept_heat_traced_instrument
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/heat_traced_instrument_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -209,7 +209,7 @@ concept_flanged_instrument_connection_to_process_line
 	[фланцеве з'єднання приладу з технологічною лінією]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/flanged_instrument_connection_to_process_line.jpg";
+	"file://images/instrument_process/flanged_instrument_connection_to_process_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -219,11 +219,11 @@ concept_flanged_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/flanged_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -237,7 +237,7 @@ concept_threaded_instrument_connection_to_process_line
 	[різьбове з'єднання приладу з технологічною лінією]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/threaded_instrument_connection_to_process_line.jpg";
+	"file://images/instrument_process/threaded_instrument_connection_to_process_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -247,11 +247,11 @@ concept_threaded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/threaded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -265,7 +265,7 @@ concept_socket_welded_instrument_connection_to_process_line
 	[роз'ємне зварне з'єднання приладу з технологічною лінією]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/socket_welded_instrument_connection_to_process_line.jpg";
+	"file://images/instrument_process/socket_welded_instrument_connection_to_process_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -275,11 +275,11 @@ concept_socket_welded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/socket_welded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
 
@@ -293,7 +293,7 @@ concept_welded_instrument_connection_to_process_line
 	[зварне з'єднання приладу з технологічною лінією]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/instrument_process/welded_instrument_connection_to_process_line.jpg";
+	"file://images/instrument_process/welded_instrument_connection_to_process_line.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -303,10 +303,10 @@ concept_welded_instrument_connection_to_process_line
 		(*
 		-> rrel_example:
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_ru.html"
-			(* <- lang_ru;; => nrel_format: format_html;; *);
+			(* <- lang_ru;; *);
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_en.html"
-			(* <- lang_en;; => nrel_format: format_html;; *);
+			(* <- lang_en;; *);
 				"file://content_html/explanations/instrument_process/welded_instrument_connection_to_process_line_uk.html"
-			(* <- lang_uk;; => nrel_format: format_html;; *);;
+			(* <- lang_uk;; *);;
 		*);;
 	*);;
