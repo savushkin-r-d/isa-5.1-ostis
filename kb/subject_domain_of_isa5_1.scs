@@ -1,5 +1,5 @@
 subject_domain_of_isa5_1
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область аппаратного и программного обеспечения]
 	(* <- lang_ru;; *);
@@ -36,7 +36,7 @@ concept_software;
 concept_software_link;;
 
 concept_accessible
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [accessible]
     (* <- lang_en;; *);
@@ -62,7 +62,7 @@ concept_accessible
     *);;
 
 concept_application_software
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [application software]
     (* <- lang_en;; *);
@@ -88,7 +88,7 @@ concept_application_software
     *);;
 
 concept_assignable
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [assignable]
     (* <- lang_en;; *);
@@ -114,7 +114,7 @@ concept_assignable
     *);;
 
 concept_balloon
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [balloon]
     (* <- lang_en;; *);
@@ -140,7 +140,7 @@ concept_balloon
     *);;
 
 concept_bubble
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [bubble]
     (* <- lang_en;; *);
@@ -166,7 +166,7 @@ concept_bubble
     *);;
 
 concept_communication_link
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [communication link]
     (* <- lang_en;; *);
@@ -192,7 +192,7 @@ concept_communication_link
     *);;
 
 concept_computing_function
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [computing function]
     (* <- lang_en;; *);
@@ -218,7 +218,7 @@ concept_computing_function
     *);;
 
 concept_configurable
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [configurable]
     (* <- lang_en;; *);
@@ -244,7 +244,7 @@ concept_configurable
     *);;
 
 concept_function
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [function]
     (* <- lang_en;; *);
@@ -270,7 +270,7 @@ concept_function
     *);;
 
 concept_hardware
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [hardware]
     (* <- lang_en;; *);
@@ -296,7 +296,7 @@ concept_hardware
     *);;
 
 concept_identification
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [identification]
     (* <- lang_en;; *);
@@ -322,7 +322,7 @@ concept_identification
     *);;
 
 concept_loop
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [loop]
     (* <- lang_en;; *);
@@ -348,7 +348,7 @@ concept_loop
     *);;
 
 concept_measurement
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [measurement]
     (* <- lang_en;; *);
@@ -374,7 +374,7 @@ concept_measurement
     *);;
 
 concept_process
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [process]
     (* <- lang_en;; *);
@@ -400,7 +400,7 @@ concept_process
     *);;
 
 concept_process_variable
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [process variable]
     (* <- lang_en;; *);
@@ -426,7 +426,7 @@ concept_process_variable
     *);;
 
 concept_program
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [program]
     (* <- lang_en;; *);
@@ -452,7 +452,7 @@ concept_program
     *);;
 
 concept_software
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [software]
     (* <- lang_en;; *);
@@ -478,7 +478,7 @@ concept_software
     *);;
 
 concept_software_link
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [software link]
     (* <- lang_en;; *);

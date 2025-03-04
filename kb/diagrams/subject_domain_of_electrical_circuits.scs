@@ -1,5 +1,5 @@
 subject_domain_of_electrical_circuits
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область электрических схем приборов, контуров и функций прикладного программного обеспечения]
 	(* <- lang_ru;; *);
@@ -50,7 +50,7 @@ concept_battery;
 concept_ground;;
 
 concept_electrical_circuit
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[электрическая схема]
 	(* <- lang_ru;; *);
@@ -114,7 +114,7 @@ concept_battery;
 concept_ground;;
 
 concept_device_wiring_point
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[точка подключения устройства]
 	(* <- lang_ru;; *);
@@ -142,7 +142,7 @@ concept_device_wiring_point
 	*);;
 	
 concept_normally_open_single_circuit_momentary_pushbutton_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально разомкнутый одноконтурный кнопочный выключатель мгновенного действия]
 	(* <- lang_ru;; *);
@@ -170,7 +170,7 @@ concept_normally_open_single_circuit_momentary_pushbutton_switch
 	*);;
 	
 concept_normally_closed_single_circuit_momentary_pushbutton_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально замкнутый одноконтурный выключатель мгновенного действия]
 	(* <- lang_ru;; *);
@@ -198,7 +198,7 @@ concept_normally_closed_single_circuit_momentary_pushbutton_switch
 	*);;
 	
 concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально замкнутый или нормально разомкнутый двухконтурный кнопочный переключатель мгновенного действия]
 	(* <- lang_ru;; *);
@@ -226,7 +226,7 @@ concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_swi
 	*);;
 	
 concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[двухпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
 	(* <- lang_ru;; *);
@@ -254,7 +254,7 @@ concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actu
 	*);;
 	
 concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[трёхпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
 	(* <- lang_ru;; *);
@@ -282,7 +282,7 @@ concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_ac
 	*);;
 
 concept_single_pole_normally_open_toggle_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[однополюсный нормально разомкнутый тумблер]
 	(* <- lang_ru;; *);
@@ -310,7 +310,7 @@ concept_single_pole_normally_open_toggle_switch
 	*);;
 	
 concept_single_pole_normally_closed_toggle_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[однополюсный нормально закрытый тумблер]
 	(* <- lang_ru;; *);
@@ -338,7 +338,7 @@ concept_single_pole_normally_closed_toggle_switch
 	*);;
 	
 concept_double_pole_normally_closed_or_normally_open_toggle_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[двухполюсный нормально закрытый или нормально открытый переключатель]
 	(* <- lang_ru;; *);
@@ -366,7 +366,7 @@ concept_double_pole_normally_closed_or_normally_open_toggle_switch
 	*);;
 	
 concept_rotary_selector_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[поворотный выборный переключатель]
 	(* <- lang_ru;; *);
@@ -394,7 +394,7 @@ concept_rotary_selector_switch
 	*);;
 	
 concept_pressure_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[привод реле давления]
 	(* <- lang_ru;; *);
@@ -422,7 +422,7 @@ concept_pressure_switch_actuator
 	*);;
 	
 concept_differential_pressure_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[привод реле перепада давления]
 	(* <- lang_ru;; *);
@@ -450,7 +450,7 @@ concept_differential_pressure_switch_actuator
 	*);;
 	
 concept_liquid_level_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[привод реле уровня жидкости]
 	(* <- lang_ru;; *);
@@ -478,7 +478,7 @@ concept_liquid_level_switch_actuator
 	*);;
 	
 concept_temperature_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[привод реле температуры]
 	(* <- lang_ru;; *);
@@ -506,7 +506,7 @@ concept_temperature_switch_actuator
 	*);;
 	
 concept_flow_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[исполнительный механизм реле потока]
 	(* <- lang_ru;; *);
@@ -534,7 +534,7 @@ concept_flow_switch_actuator
 	*);;
 	
 concept_foot_switch_actuator
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[привод ножного переключателя]
 	(* <- lang_ru;; *);
@@ -562,7 +562,7 @@ concept_foot_switch_actuator
 	*);;
 	
 concept_relay_operating_coil
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[катушка управления реле]
 	(* <- lang_ru;; *);
@@ -590,7 +590,7 @@ concept_relay_operating_coil
 	*);;
 	
 concept_normally_open_relay_contact
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально разомкнутый релейный контакт]
 	(* <- lang_ru;; *);
@@ -618,7 +618,7 @@ concept_normally_open_relay_contact
 	*);;
 
 concept_normally_closed_relay_contact
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально замкнутый релейный контакт]
 	(* <- lang_ru;; *);
@@ -646,7 +646,7 @@ concept_normally_closed_relay_contact
 	*);;
 	
 concept_normally_open_or_normally_closed_relay_contact
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[нормально замкнутый релейный контакт]
 	(* <- lang_ru;; *);
@@ -674,7 +674,7 @@ concept_normally_open_or_normally_closed_relay_contact
 	*);;
 	
 concept_on_time_delay
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[включатель]
 	(* <- lang_ru;; *);
@@ -702,7 +702,7 @@ concept_on_time_delay
 	*);;
 	
 concept_off_time_delay
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[выключатель]
 	(* <- lang_ru;; *);
@@ -730,7 +730,7 @@ concept_off_time_delay
 	*);;
 	
 concept_transformer
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[трансформатор]
 	(* <- lang_ru;; *);
@@ -758,7 +758,7 @@ concept_transformer
 	*);;
 	
 concept_non_resettable_fuse
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[невосстанавливаемый предохранитель]
 	(* <- lang_ru;; *);
@@ -786,7 +786,7 @@ concept_non_resettable_fuse
 	*);;
 	
 concept_thermal_overload
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[тепловой перегрузчик]
 	(* <- lang_ru;; *);
@@ -814,7 +814,7 @@ concept_thermal_overload
 	*);;
 	
 concept_circuit_interrupter_1_pole_manual_reset
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[прерыватель цепи, 1-полюсный, ручной сброс]
 	(* <- lang_ru;; *);
@@ -842,7 +842,7 @@ concept_circuit_interrupter_1_pole_manual_reset
 	*);;
 	
 concept_circuit_interrupter_3_pole_manual_reset
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[прерыватель цепи, 3-полюсный, ручной сброс]
 	(* <- lang_ru;; *);
@@ -870,7 +870,7 @@ concept_circuit_interrupter_3_pole_manual_reset
 	*);;
 	
 concept_circuit_breaker_1_pole_manual_reset
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический выключатель, 1-полюсный, ручной сброс]
 	(* <- lang_ru;; *);
@@ -898,7 +898,7 @@ concept_circuit_breaker_1_pole_manual_reset
 	*);;
 	
 concept_circuit_breaker_3_pole_manual_reset
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический выключатель, 3-полюсный, ручной сброс]
 	(* <- lang_ru;; *);
@@ -926,7 +926,7 @@ concept_circuit_breaker_3_pole_manual_reset
 	*);;
 	
 concept_bell
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[звонок]
 	(* <- lang_ru;; *);
@@ -954,7 +954,7 @@ concept_bell
 	*);;
 	
 concept_horn
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[рупор]
 	(* <- lang_ru;; *);
@@ -985,7 +985,7 @@ concept_horn
 	*);;
 	
 concept_buzzer
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[гудок]
 	(* <- lang_ru;; *);
@@ -1013,7 +1013,7 @@ concept_buzzer
 	*);;
 	
 concept_solenoid_coil
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[катушка соленоида]
 	(* <- lang_ru;; *);
@@ -1061,7 +1061,7 @@ concept_pilot_light
 	*);;
 	
 concept_battery
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[аккумулятор]
 	(* <- lang_ru;; *);
@@ -1089,7 +1089,7 @@ concept_battery
 	*);;
 	
 concept_ground
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[заземление]
 	(* <- lang_ru;; *);

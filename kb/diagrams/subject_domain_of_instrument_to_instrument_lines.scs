@@ -1,5 +1,5 @@
 subject_domain_of_instrument_to_instrument_lines
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область инструмент-инструмент соединений]
 	(* <- lang_ru;; *);
@@ -23,7 +23,7 @@ concept_filled_thermal_element_capillary_tube;
 concept_fiber_optic_cable;;
 
 concept_instrument_to_instrument_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[соединение инструмент-инструмент]
 	(* <- lang_ru;; *);
@@ -60,7 +60,7 @@ concept_filled_thermal_element_capillary_tube;
 concept_fiber_optic_cable;;
 
 concept_instrument_electric_power_supply
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[источник электропитания прибора]
 	(* <- lang_ru;; *);
@@ -88,7 +88,7 @@ concept_instrument_electric_power_supply
 	*);;
 
 concept_instrument_hydraulic_power_supply
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[гидравлический источник питания прибора]
 	(* <- lang_ru;; *);
@@ -116,7 +116,7 @@ concept_instrument_hydraulic_power_supply
 	*);;
 
 concept_undefined_signal
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[неопределенный сигнал]
 	(* <- lang_ru;; *);
@@ -144,7 +144,7 @@ concept_undefined_signal
 	*);;
 
 concept_pneumatic_signal
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[пневматический сигнал]
 	(* <- lang_ru;; *);
@@ -172,7 +172,7 @@ concept_pneumatic_signal
 	*);;
 
 concept_functional_diagram_binary_signal
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональная схема двоичного сигнала]
 	(* <- lang_ru;; *);
@@ -200,7 +200,7 @@ concept_functional_diagram_binary_signal
 	*);;
 
 concept_functional_diagram_continuously_variable_signal
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональная схема бесступенчатого сигнала]
 	(* <- lang_ru;; *);
@@ -228,7 +228,7 @@ concept_functional_diagram_continuously_variable_signal
 	*);;
 
 concept_hydraulic_signal
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[гидравлический сигнал]
 	(* <- lang_ru;; *);
@@ -256,7 +256,7 @@ concept_hydraulic_signal
 	*);;
 
 concept_filled_thermal_element_capillary_tube
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[заполненная капиллярная трубка теплового элемента]
 	(* <- lang_ru;; *);
@@ -284,7 +284,7 @@ concept_filled_thermal_element_capillary_tube
 	*);;
 
 concept_fiber_optic_cable
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[волоконно-оптический кабель]
 	(* <- lang_ru;; *);

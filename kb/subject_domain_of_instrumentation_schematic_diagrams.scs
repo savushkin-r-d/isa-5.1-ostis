@@ -1,5 +1,5 @@
 subject_domain_of_instrumentation_schematic_diagrams
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область принципиальных схем приборов, устройств и функций]
 	(* <- lang_ru;; *);

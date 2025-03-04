@@ -1,5 +1,5 @@
 subject_domain_of_instrument_to_process_lines
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область соединений инструмент-процесс]
 	(* <- lang_ru;; *);
@@ -23,7 +23,7 @@ concept_socket_welded_instrument_connection_to_process_line;
 concept_welded_instrument_connection_to_process_line;;
 
 concept_instrument_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[соединение инструмент-процесс]
 	(* <- lang_ru;; *);
@@ -60,7 +60,7 @@ concept_socket_welded_instrument_connection_to_process_line;
 concept_welded_instrument_connection_to_process_line;;
 
 concept_instrument_connections_to_process_and_equipment
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[подключение приборов к технологическому процессу и оборудованию]
 	(* <- lang_ru;; *);
@@ -88,7 +88,7 @@ concept_instrument_connections_to_process_and_equipment
 	*);;
 
 concept_heat_traced_impulse_or_sample_line_of_process
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[тепловая \[охлаждающая\] импульсная или пробная линия процесса]
 	(* <- lang_ru;; *);
@@ -116,7 +116,7 @@ concept_heat_traced_impulse_or_sample_line_of_process
 	*);;
 
 concept_generic_instrument_connection_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[подключение универсального прибора к технологической линии]
 	(* <- lang_ru;; *);
@@ -144,7 +144,7 @@ concept_generic_instrument_connection_to_process_line
 	*);;
 
 concept_heat_traced_generic_instrument_impulse_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[тепловая \[охлаждающая\] трассируемая общая импульсная линия прибора]
 	(* <- lang_ru;; *);
@@ -172,7 +172,7 @@ concept_heat_traced_generic_instrument_impulse_line
 	*);;
 
 concept_heat_traced_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[тепловизионный прибор]
 	(* <- lang_ru;; *);
@@ -200,7 +200,7 @@ concept_heat_traced_instrument
 	*);;
 
 concept_flanged_instrument_connection_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[фланцевое соединение прибора с технологической линией]
 	(* <- lang_ru;; *);
@@ -228,7 +228,7 @@ concept_flanged_instrument_connection_to_process_line
 	*);;
 
 concept_threaded_instrument_connection_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[резьбовое соединение прибора с технологической линией]
 	(* <- lang_ru;; *);
@@ -256,7 +256,7 @@ concept_threaded_instrument_connection_to_process_line
 	*);;
 
 concept_socket_welded_instrument_connection_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[разъемное сварное соединение прибора с технологической линией]
 	(* <- lang_ru;; *);
@@ -284,7 +284,7 @@ concept_socket_welded_instrument_connection_to_process_line
 	*);;
 
 concept_welded_instrument_connection_to_process_line
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[сварное соединение прибора с технологической линией]
 	(* <- lang_ru;; *);
