@@ -1,5 +1,5 @@
 subject_domain_of_instruments
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область приборов]
 	(* <- lang_ru;; *);
@@ -28,7 +28,7 @@ subject_domain_of_binary_logic_elements;
 subject_domain_of_instrumentations;;
 
 concept_discrete_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [discrete instrument]
     (* <- lang_en;; *);
@@ -54,7 +54,7 @@ concept_discrete_instrument
     *);;
 
 concept_behind_the_panel
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [behind the panel]
     (* <- lang_en;; *);
@@ -80,7 +80,7 @@ concept_behind_the_panel
     *);;
 
 concept_field_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [field instrument]
     (* <- lang_en;; *);
@@ -106,7 +106,7 @@ concept_field_instrument
     *);;
 
 concept_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [instrument]
     (* <- lang_en;; *);
@@ -137,7 +137,7 @@ concept_local_instrument;
 concept_panel_mounted_instrument;;
 
 concept_instrumentation
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [instrumentation]
     (* <- lang_en;; *);
@@ -163,7 +163,7 @@ concept_instrumentation
     *);;
 
 concept_local_panel
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [local panel]
     (* <- lang_en;; *);
@@ -189,7 +189,7 @@ concept_local_panel
     *);;
 
 concept_panel
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [panel]
     (* <- lang_en;; *);
@@ -215,7 +215,7 @@ concept_panel
     *);;
 
 concept_local_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [local instrument]
     (* <- lang_en;; *);
@@ -241,7 +241,7 @@ concept_local_instrument
     *);;
 
 concept_panel_mounted_instrument
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [panel-mounted instrument]
     (* <- lang_en;; *);
@@ -267,7 +267,7 @@ concept_panel_mounted_instrument
     *);;
 
 concept_board
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [board]
     (* <- lang_en;; *);
@@ -293,7 +293,7 @@ concept_board
     *);;
 
 concept_test_point
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [test point]
     (* <- lang_en;; *);

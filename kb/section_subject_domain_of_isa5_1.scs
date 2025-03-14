@@ -1,5 +1,5 @@
 section_subject_domain_of_isa5_1
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область аппаратного и программного обеспечения]
 	(* <- lang_ru;; *);
@@ -49,7 +49,7 @@ section_subject_domain_of_isa5_1
 	(* <- lang_uk;; *);;
 	
 section_subject_domain_of_signals
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область сигналов]
 	(* <- lang_ru;; *);
@@ -59,7 +59,7 @@ section_subject_domain_of_signals
 	(* <- lang_uk;; *);;
 
 section_subject_domain_of_instruments
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область приборов]
 	(* <- lang_ru;; *);
@@ -69,7 +69,7 @@ section_subject_domain_of_instruments
 	(* <- lang_uk;; *);;
 
 section_subject_domain_of_instrumentation_schematic_diagrams
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область принципиальных схем приборов, устройств и функций]
 	(* <- lang_ru;; *);
@@ -79,7 +79,7 @@ section_subject_domain_of_instrumentation_schematic_diagrams
 	(* <- lang_uk;; *);;
 
 section_subject_domain_of_devices
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область устройств]
 	(* <- lang_ru;; *);
@@ -89,7 +89,7 @@ section_subject_domain_of_devices
 	(* <- lang_uk;; *);;
 
 section_subject_domain_of_control_systems
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Раздел. Предметная область систем управления]
 	(* <- lang_ru;; *);

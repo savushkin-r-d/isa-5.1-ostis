@@ -1,5 +1,5 @@
 subject_domain_of_devices
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область устройств]
 	(* <- lang_ru;; *);
@@ -34,7 +34,7 @@ concept_monitor_light;
 concept_pilot_light;;
 
 concept_alarm
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [alarm]
     (* <- lang_en;; *);
@@ -60,7 +60,7 @@ concept_alarm
     *);;
 
 concept_computing_device
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [computing device]
     (* <- lang_en;; *);
@@ -86,7 +86,7 @@ concept_computing_device
     *);;
 
 concept_computing_relay
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [computing relay]
     (* <- lang_en;; *);
@@ -112,7 +112,7 @@ concept_computing_relay
     *);;
 
 concept_controller
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [controller]
     (* <- lang_en;; *);
@@ -142,7 +142,7 @@ concept_automatic_two_mode_controller;
 concept_automatic_three_mode_controller;;
 
 concept_converter
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [converter]
     (* <- lang_en;; *);
@@ -168,7 +168,7 @@ concept_converter
     *);;
 
 concept_datalink
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [datalink]
     (* <- lang_en;; *);
@@ -194,7 +194,7 @@ concept_datalink
     *);;
 
 concept_detector
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [detector]
     (* <- lang_en;; *);
@@ -220,7 +220,7 @@ concept_detector
     *);;
 
 concept_device
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [device]
     (* <- lang_en;; *);
@@ -261,7 +261,7 @@ concept_transducer;
 concept_transmitter;;
 
 concept_monitor
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [monitor]
     (* <- lang_en;; *);
@@ -287,7 +287,7 @@ concept_monitor
     *);;
 
 concept_primary_element
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [primary element]
     (* <- lang_en;; *);
@@ -313,7 +313,7 @@ concept_primary_element
     *);;
 
 concept_programmable_logic_controller
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [programmable logic controller]
     (* <- lang_en;; *);
@@ -339,7 +339,7 @@ concept_programmable_logic_controller
     *);;
 
 concept_relay
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [relay]
     (* <- lang_en;; *);
@@ -365,7 +365,7 @@ concept_relay
     *);;
 
 concept_sensor
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [sensor]
     (* <- lang_en;; *);
@@ -391,7 +391,7 @@ concept_sensor
     *);;
 
 concept_shared_display
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [shared display]
     (* <- lang_en;; *);
@@ -417,7 +417,7 @@ concept_shared_display
     *);;
 
 concept_switch
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [switch]
     (* <- lang_en;; *);
@@ -443,7 +443,7 @@ concept_switch
     *);;
 
 concept_transducer
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [transducer]
     (* <- lang_en;; *);
@@ -469,7 +469,7 @@ concept_transducer
     *);;
 
 concept_transmitter
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [transmitter]
     (* <- lang_en;; *);
@@ -495,7 +495,7 @@ concept_transmitter
     *);;
 
 concept_monitor_light
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [monitor light]
     (* <- lang_en;; *);
@@ -521,7 +521,7 @@ concept_monitor_light
     *);;
 
 concept_pilot_light
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [pilot light]
     (* <- lang_en;; *);
@@ -547,7 +547,7 @@ concept_pilot_light
     *);;
 
 concept_scan
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
     [scan]
     (* <- lang_en;; *);

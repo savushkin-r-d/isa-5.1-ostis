@@ -1,5 +1,5 @@
 subject_domain_of_signal_processing_function_block_symbols
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область условных обозначений функциональных блоков обработки сигналов]
 	(* <- lang_ru;; *);
@@ -43,7 +43,7 @@ concept_analog_signal_generator_symbol;;
 
 
 concept_functional_block_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ функционального блока обработки сигналов]
 	(* <- lang_ru;; *);
@@ -101,7 +101,7 @@ concept_analog_signal_generator_symbol;;
 
 
 concept_summation_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ суммы]
 	(* <- lang_ru;; *);
@@ -132,7 +132,7 @@ concept_summation_symbol
 	*);;
 
 concept_multiplication_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ умножения]
 	(* <- lang_ru;; *);
@@ -163,7 +163,7 @@ concept_multiplication_symbol
 	*);;
 
 concept_difference_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ разности]
 	(* <- lang_ru;; *);
@@ -194,7 +194,7 @@ concept_difference_symbol
 	*);;
 
 concept_average_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ среднего значения]
 	(* <- lang_ru;; *);
@@ -225,7 +225,7 @@ concept_average_symbol
 	*);;
 
 concept_exponential_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный экспоненциальный символ]
 	(* <- lang_ru;; *);
@@ -256,7 +256,7 @@ concept_exponential_symbol
 	*);;
 
 concept_proportion_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ пропорции]
 	(* <- lang_ru;; *);
@@ -287,7 +287,7 @@ concept_proportion_symbol
 	*);;
 
 concept_integral_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный интегральный символ]
 	(* <- lang_ru;; *);
@@ -318,7 +318,7 @@ concept_integral_symbol
 	*);;
 
 concept_unspecified_function_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ неуказанной функции]
 	(* <- lang_ru;; *);
@@ -349,7 +349,7 @@ concept_unspecified_function_symbol
 	*);;
 
 concept_conversion_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ преобразования]
 	(* <- lang_ru;; *);
@@ -380,7 +380,7 @@ concept_conversion_symbol
 	*);;
 
 concept_middle_signal_select_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ выбора среднего сигнала]
 	(* <- lang_ru;; *);
@@ -411,7 +411,7 @@ concept_middle_signal_select_symbol
 	*);;
 
 concept_high_limit_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ верхнего предела]
 	(* <- lang_ru;; *);
@@ -442,7 +442,7 @@ concept_high_limit_symbol
 	*);;
 
 concept_positive_bias_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ положительной предвзятости]
 	(* <- lang_ru;; *);
@@ -473,7 +473,7 @@ concept_positive_bias_symbol
 	*);;
 
 concept_velocity_limiter_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ ограничителя скорости]
 	(* <- lang_ru;; *);
@@ -504,7 +504,7 @@ concept_velocity_limiter_symbol
 	*);;
 
 concept_low_signal_monitor_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ монитора низкого уровня сигнала]
 	(* <- lang_ru;; *);
@@ -535,7 +535,7 @@ concept_low_signal_monitor_symbol
 	*);;
 
 concept_division_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ деления]
 	(* <- lang_ru;; *);
@@ -566,7 +566,7 @@ concept_division_symbol
 	*);;
 
 concept_root_extraction_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ извлечение корня]
 	(* <- lang_ru;; *);
@@ -597,7 +597,7 @@ concept_root_extraction_symbol
 	*);;
 
 concept_reverse_proportion_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ обратной пропорции функции]
 	(* <- lang_ru;; *);
@@ -629,7 +629,7 @@ concept_reverse_proportion_symbol
 
 
 concept_derivative_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ функциональной производной]
 	(* <- lang_ru;; *);
@@ -660,7 +660,7 @@ concept_derivative_symbol
 	*);;
 
 concept_time_function_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ функции времени]
 	(* <- lang_ru;; *);
@@ -691,7 +691,7 @@ concept_time_function_symbol
 	*);;
 
 concept_high_signal_select_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ выбора функционального высокого сигнала]
 	(* <- lang_ru;; *);
@@ -723,7 +723,7 @@ concept_high_signal_select_symbol
 
 
 concept_low_signal_select_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ выбора функционального слабого сигнала]
 	(* <- lang_ru;; *);
@@ -754,7 +754,7 @@ concept_low_signal_select_symbol
 	*);;
 
 concept_low_limit_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ нижнего предела]
 	(* <- lang_ru;; *);
@@ -785,7 +785,7 @@ concept_low_limit_symbol
 	*);;
 
 concept_negative_bias_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ функционального отрицательного смещения]
 	(* <- lang_ru;; *);
@@ -816,7 +816,7 @@ concept_negative_bias_symbol
 	*);;
 
 concept_high_signal_monitor_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ монитора высокого уровня сигнала]
 	(* <- lang_ru;; *);
@@ -847,7 +847,7 @@ concept_high_signal_monitor_symbol
 	*);;
 
 concept_high_low_signal_monitor_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ монитора высокого / низкого уровня сигнала]
 	(* <- lang_ru;; *);
@@ -878,7 +878,7 @@ concept_high_low_signal_monitor_symbol
 	*);;
 
 concept_binary_signal_generator_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ генератора двоичных сигналов]
 	(* <- lang_ru;; *);
@@ -909,7 +909,7 @@ concept_binary_signal_generator_symbol
 	*);;
 
 concept_signal_transfer_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[символ передачи функционального сигнала]
 	(* <- lang_ru;; *);
@@ -940,7 +940,7 @@ concept_signal_transfer_symbol
 	*);;
 
 concept_analog_signal_generator_symbol
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональный символ генератора аналоговых сигналов]
 	(* <- lang_ru;; *);

@@ -1,5 +1,5 @@
 subject_domain_of_binary_logic_elements
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область двоичных логических элементов]
 	(* <- lang_ru;; *);
@@ -32,7 +32,7 @@ concept_time_delay_on;
 concept_time_delay_off;;
 
 concept_binary_logic_element
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[двоичный логический элемент]
 	(* <- lang_ru;; *);
@@ -78,7 +78,7 @@ concept_time_delay_on;
 concept_time_delay_off;;
 
 concept_AND_gate
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[логический элемент И]
 	(* <- lang_ru;; *);
@@ -106,7 +106,7 @@ concept_AND_gate
 	*);;
 	
 concept_OR_gate
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[логический элемент ИЛИ]
 	(* <- lang_ru;; *);
@@ -134,7 +134,7 @@ concept_OR_gate
 	*);;
 
 concept_NAND_gate
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[логический элемент И-НЕ]
 	(* <- lang_ru;; *);
@@ -162,7 +162,7 @@ concept_NAND_gate
 	*);;
 
 concept_NOR_gate
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[логический элемент ИЛИ-НЕ]
 	(* <- lang_ru;; *);
@@ -190,7 +190,7 @@ concept_NOR_gate
 	*);;
 	
 concept_qualified_OR_gate_greater_or_equal_to_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, больше или равно "n"]
 	(* <- lang_ru;; *);
@@ -218,7 +218,7 @@ concept_qualified_OR_gate_greater_or_equal_to_n
 	*);;
 	
 concept_qualified_OR_gate_greater_than_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, больше "n"]
 	(* <- lang_ru;; *);
@@ -246,7 +246,7 @@ concept_qualified_OR_gate_greater_than_n
 	*);;
 	
 concept_qualified_OR_gate_less_or_equal_to_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, меньше или равно "n"]
 	(* <- lang_ru;; *);
@@ -274,7 +274,7 @@ concept_qualified_OR_gate_less_or_equal_to_n
 	*);;
 	
 concept_qualified_OR_gate_less_than_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, меньше "n"]
 	(* <- lang_ru;; *);
@@ -302,7 +302,7 @@ concept_qualified_OR_gate_less_than_n
 	*);;
 	
 concept_qualified_OR_gate_equal_to_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, равно "n"]
 	(* <- lang_ru;; *);
@@ -330,7 +330,7 @@ concept_qualified_OR_gate_equal_to_n
 	*);;
 	
 concept_qualified_OR_gate_not_equal_to_n
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[квалифицированный логический элемент ИЛИ, не равно "n"]
 	(* <- lang_ru;; *);
@@ -358,7 +358,7 @@ concept_qualified_OR_gate_not_equal_to_n
 	*);;
 	
 concept_NOT_gate
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[логический элемент НЕ]
 	(* <- lang_ru;; *);
@@ -386,7 +386,7 @@ concept_NOT_gate
 	*);;
 	
 concept_basic_memory
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[базовая память]
 	(* <- lang_ru;; *);
@@ -414,7 +414,7 @@ concept_basic_memory
 	*);;
 	
 concept_set_dominant_memory
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[устанивливаемая доминирующая память]
 	(* <- lang_ru;; *);
@@ -442,7 +442,7 @@ concept_set_dominant_memory
 	*);;
 	
 concept_reset_dominant_memory
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[сбрасываемая доминирующая память]
 	(* <- lang_ru;; *);
@@ -470,7 +470,7 @@ concept_reset_dominant_memory
 	*);;
 	
 concept_pulse_duration_fixed
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[длительность импульса, фиксированная]
 	(* <- lang_ru;; *);
@@ -498,7 +498,7 @@ concept_pulse_duration_fixed
 	*);;
 	
 concept_pulse_duration_variable
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[длительность импульса, переменная]
 	(* <- lang_ru;; *);
@@ -526,7 +526,7 @@ concept_pulse_duration_variable
 	*);;
 	
 concept_time_delay_on
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[система задержки по времени, вкл.]
 	(* <- lang_ru;; *);
@@ -554,7 +554,7 @@ concept_time_delay_on
 	*);;
 	
 concept_time_delay_off
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[система задержки по времени, выкл.]
 	(* <- lang_ru;; *);

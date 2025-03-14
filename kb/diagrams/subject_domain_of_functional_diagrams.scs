@@ -1,5 +1,5 @@
 subject_domain_of_functional_diagrams
-<- sc_node_struct;
+<- sc_node_structure;
 => nrel_main_idtf:
 	[Предметная область функциональных схем приборов, контуров и функций прикладного программного обеспечения]
 	(* <- lang_ru;; *);
@@ -22,7 +22,7 @@ concept_final_control_element;
 concept_final_control_element_with_positioner;;
 
 concept_functional_diagram
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[функциональная схема]
 	(* <- lang_ru;; *);
@@ -59,7 +59,7 @@ concept_final_control_element_with_positioner;;
 
 
 concept_measuring_input_or_readout_device
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[устройство измерения, ввода или считывания]
 	(* <- lang_ru;; *);
@@ -87,7 +87,7 @@ concept_measuring_input_or_readout_device
 	*);;
 	
 concept_automatic_single_mode_controller
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический одномодовый регулятор]
 	(* <- lang_ru;; *);
@@ -115,7 +115,7 @@ concept_automatic_single_mode_controller
 	*);;
 	
 concept_automatic_two_mode_controller
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический двухмодовый регулятор]
 	(* <- lang_ru;; *);
@@ -143,7 +143,7 @@ concept_automatic_two_mode_controller
 	*);;
 	
 concept_automatic_three_mode_controller
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический трёхмодовый регулятор]
 	(* <- lang_ru;; *);
@@ -171,7 +171,7 @@ concept_automatic_three_mode_controller
 	*);;	
 	
 concept_automatic_signal_processor
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[автоматический сигнальный процессор]
 	(* <- lang_ru;; *);
@@ -199,7 +199,7 @@ concept_automatic_signal_processor
 	*);;	
 
 concept_manual_signal_processor
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[ручной сигнальный процессор]
 	(* <- lang_ru;; *);
@@ -247,7 +247,7 @@ concept_final_control_element
 	*);;
 
 concept_final_control_element_with_positioner
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[конечный элемент управления с позиционером]
 	(* <- lang_ru;; *);
